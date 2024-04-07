@@ -17,9 +17,15 @@ body{
     border: 2px solid red;
     margin: 0 auto;
 }
-.rhomb_{
-    background-color: #00000024;
-    width: 350px;
-    height: 350px;
-    transform: rotate(45deg);
+.svg_hromb{
+    width:350px; 
+    height:350px; 
+    fill:none;
+}
+.hromb{
+    d: path("M 175 0 L 350 175 L 175 350 L 0 175 L 175 0 Z");
+    fill-opacity:0.24;
+}
+#black_hromb{
+    fill:black;
 }
