@@ -21,6 +21,7 @@ body{
     width:350px; 
     height:350px; 
     fill:none;
+    position: absolute;
 }
 .hromb{
     d: path("M 175 0 L 350 175 L 175 350 L 0 175 L 175 0 Z");
@@ -28,4 +29,95 @@ body{
 }
 #black_hromb{
     fill:black;
+}
+#gray_hromb{
+    fill:#E6E7E8;
+}
+#red_hromb{
+    fill:#D71921;
+}
+#r1{
+    left: -250px;
+}
+#r2{
+    left: -60px;
+    top: -190px;
+}
+#r3{
+    left: 130px;
+}
+#r4{
+    left: -60px;
+    top: 190px;
+}
+#r5{
+    left: -60px;
+    top: 570px;
+}
+#r6{
+    left: -250px;
+    top: 380px
+}
+#r7{
+    left: -250px;
+    top: 760px
+}
+#r8{
+    left: -60px;
+    top: 950px
+}
+#r9{
+    left: 130px;
+    top: 380px
+}
+#r10{
+    left: 130px;
+    top: 760px
+}
+#r11{
+    left: 320px;
+    top: 190px;
+}
+#r12{
+    left: 320px;
+    top: 570px;
+}
+#r13{
+    left: 320px;
+    top: 950px
+}
+#r14{
+    left: 510px;
+    top: 380px;
+}
+#r15{
+    left: 510px;
+    top: 760px
+}
+#r16{
+    left: 700px;
+    top: 950px
+}
+#r17{
+    left: 700px;
+    top: 570px
+}
+#r18{
+    left: 700px;
+    top: 950px
+}
+.sec2_line{
+    background-color:#D7192165;
+    width: 1096px;
+    height: 319px;
+    position: absolute;
+    right: 0;
+    top: 73px;
+}
+.sec2_line:nth-child(1){
+    top: 540px;
+}
+.white_text{
+    color: white;
+    font-size: 32px;
 }
