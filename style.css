@@ -299,12 +299,9 @@ body{
     justify-content: center;
     align-items:center;
 }
-.svg_RR{
-   
-}
-img{
-    width: 100%;
-    height: 100%;
+.img_rr{
+   width: 100%;
+   height: 100%;
 }
 /*КАРУСЕЛЬ*/
 @keyframes scroll{
