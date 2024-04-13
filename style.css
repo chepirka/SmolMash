@@ -77,23 +77,23 @@ body{
 }
 #r6{
     left: -250px;
-    top: 380px
+    top: 380px;
 }
 #r7{
     left: -250px;
-    top: 760px
+    top: 760px;
 }
 #r8{
     left: -60px;
-    top: 950px
+    top: 950px;
 }
 #r9{
     left: 130px;
-    top: 380px
+    top: 380px;
 }
 #r10{
     left: 130px;
-    top: 760px
+    top: 760px;
 }
 #r11{
     left: 320px;
@@ -105,7 +105,7 @@ body{
 }
 #r13{
     left: 320px;
-    top: 950px
+    top: 950px;
 }
 #r14{
     left: 510px;
@@ -113,15 +113,15 @@ body{
 }
 #r15{
     left: 510px;
-    top: 760px
+    top: 760px;
 }
 #r16{
     left: 700px;
-    top: 950px
+    top: 950px;
 }
 #r17{
     left: 700px;
-    top: 570px
+    top: 570px;
 }
 #r18{
     right: 15px;
@@ -130,12 +130,15 @@ body{
 #r19{
     right: 395px;
     top: -190px;
+    z-index: -1;
 }
 #r20{
     right: -175px;
+    top:0px;
 }
 #r21{
     right: 205px;
+    top: 0px;
 }
 #r22{
     right: 15px;
@@ -143,19 +146,20 @@ body{
 }
 #r23{
     right: 395px;
-    top: 190px
+    top: 190px;
 }
 #r24{
     right: -175px;
-    top: 380px
+    top: 380px;
 }
 #r25{
     right: 205px;
-    top: 380px
+    top: 380px;
 }
 #r26{
     right: 585px;
-    top: 380px
+    top: 380px;
+    z-index: -1;
 }
 #r27{
     right: 15px;
@@ -180,11 +184,11 @@ body{
 }
 #r32{
     right: 15px;
-    top: 950px
+    top: 950px;
 }
 #r33{
     right: 395px;
-    top: 950px
+    top: 950px;
 }
 #r34{
     right: 775px;
@@ -218,13 +222,15 @@ body{
 }
 .sec2_line{
     background-color:#D7192165;
-    width: 1096px;
+    width: 1116px;
     height: 319px;
     position: absolute;
-    right: 0;
+    right: -20px;
     top: 540px;
     display: flex;
-    align-items:center
+    align-items:center;
+    border-radius: 20px;
+
 }
 .sec2_line:nth-child(1){
     top: 73px;
@@ -319,12 +325,15 @@ body{
 	100% { transform: translateX(calc(-640px * 3))}
 }
 .slider {
-	height: 350px;
+	height: 400px;
 	margin:0 auto;
 	position: relative;
 	width: 1920px;
     display: flex;
     justify-content: center;
+    align-items:center;
+    background-color:#D7192165;
+    z-index: -1;
 }
 .slide-track{
     animation: scroll 40s linear infinite;
@@ -339,7 +348,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-items:center;
-    background-color: #e6e7e875;
+    /*background-color: #e6e7e875;*/
+    background-color: #898989;
     border-radius: 20px;
     flex-direction: column;
 }
