@@ -303,6 +303,9 @@ body{
    width: 380px;
    height: 200px;
 }
+#img_mash{
+    width: 500px;
+}
 .text_slide{
     color:white;
     font-size: 48px;
