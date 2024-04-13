@@ -333,7 +333,7 @@ body{
     justify-content: center;
     align-items:center;
     background-color:#D7192165;
-    z-index: -1;
+    z-index: 1;
 }
 .slide-track{
     animation: scroll 40s linear infinite;
