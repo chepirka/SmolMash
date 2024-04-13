@@ -327,7 +327,7 @@ body{
     justify-content: center;
 }
 .slide-track{
-    animation: scroll 15s linear infinite;
+    animation: scroll 40s linear infinite;
     display: flex;
     width: 1920px;
 }
@@ -339,7 +339,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items:center;
-    background-color: #e6e7e850;
+    background-color: #e6e7e875;
     border-radius: 20px;
     flex-direction: column;
 }
