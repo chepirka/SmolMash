@@ -332,7 +332,7 @@ body{
     display: flex;
     justify-content: center;
     align-items:center;
-    background-color:#D7192165;
+    /*background-color:#D7192165;*/
     z-index: 1;
 }
 .slide-track{
