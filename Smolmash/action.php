@@ -7,12 +7,16 @@
     require 'includes/PHPMailer/src/PHPMailer.php';
     require 'includes/PHPMailer/src/SMTP.php';
 
+<<<<<<< HEAD
     $name = $_POST['name'];
     $phone =   $_POST['phone'];
     $email =   $_POST['email'];
     $city =   $_POST['city'];
     $school =   $_POST['school'];
     $class =   $_POST['class'];
+=======
+    
+>>>>>>> 466ac6b668e184b6c28f656434b5ac7b56a0898f
     
     $mail = new PHPMailer();
     $mail->isSMTP();                   // Отправка через SMTP
