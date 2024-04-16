@@ -6,6 +6,8 @@
     require 'includes/PHPMailer/src/Exception.php';
     require 'includes/PHPMailer/src/PHPMailer.php';
     require 'includes/PHPMailer/src/SMTP.php';
+
+    
     
     $mail = new PHPMailer();
     $mail->isSMTP();                   // Отправка через SMTP
