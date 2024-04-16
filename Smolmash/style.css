@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
     user-select: none
 }
 body{
@@ -17,6 +17,13 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: rgb(255, 25, 33);    /* цвет бегунка */
     border-radius: 20px;       /* округлось бегунка */
+}
+h1{
+    font-family: "MarvinVisions-Bold";
+    letter-spacing: 4px;
+}
+p, h2{
+    font-family: "Roboto", sans-serif;
 }
 #main_sec{
     display: flex;
@@ -381,9 +388,6 @@ body::-webkit-scrollbar-thumb {
     color: white;
     text-align: center;
 }
-.two_block_body{
-    
-}
 .block_text{
     color: white;
     text-align: center;
@@ -523,6 +527,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     text-align: center;
     margin-bottom: 25px;
+    font-family: "MarvinVisions-Bold";
 }
 /*КАРУСЕЛЬ*/
 @keyframes scroll{
@@ -573,3 +578,10 @@ input:focus{
     outline: 0;
 }
 /*конец седьмой секции*/
+
+@font-face {
+    font-family: "MarvinVisions-Bold";
+    src: url("./fonts/MarvinVisions-Bold.otf");
+    font-style: normal; 
+    font-weight: normal; 
+}
