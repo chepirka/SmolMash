@@ -22,7 +22,7 @@ h1{
     font-family: "MarvinVisions-Bold";
     letter-spacing: 4px;
 }
-p, h2{
+p, h2, li{
     font-family: "Roboto", sans-serif;
 }
 #main_sec{
@@ -316,7 +316,7 @@ p, h2{
     top: 380px;
 }
 .sec2_line{
-    background-color:#D7192165;
+    background-color:rgb(230, 231, 232, 60%);
     width: 1116px;
     height: 319px;
     position: absolute;
@@ -528,6 +528,7 @@ p, h2{
     text-align: center;
     margin-bottom: 25px;
     font-family: "MarvinVisions-Bold";
+    letter-spacing: 4px;
 }
 /*КАРУСЕЛЬ*/
 @keyframes scroll{
@@ -585,3 +586,7 @@ input:focus{
     font-style: normal; 
     font-weight: normal; 
 }
+
+/* цвета: красный - rgb(255, 25, 33)
+       черный - rgb(58, 58, 57)
+       серый - rgb(270, 231, 232) */
