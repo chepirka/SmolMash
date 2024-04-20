@@ -567,9 +567,20 @@ p, h2, li{
 /*КОНЕЦ КАРУСЕЛИ*/
 /*конец шестой секции*/
 /*начало седьмой секции*/
+#form{
+    display: block;
+}
 .form_form{
-    width: 100vw;
+    width: inherit;
     height: 100vh;
+    border: 1px solid green;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.o{
+}
+.t{
 
 }
 input{
