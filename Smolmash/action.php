@@ -8,20 +8,20 @@
     require 'includes/PHPMailer/src/SMTP.php';
 
     $name = $_POST['name'];
-    $phone =   $_POST['phone'];
-    $email =   $_POST['email'];
-    $city =   $_POST['city'];
-    $school =   $_POST['school'];
-    $class =   $_POST['class'];
+    $phone = $_POST['phone'];
+    $email = $_POST['email'];
+    $city = $_POST['city'];
+    $school = $_POST['school'];
+    $class = $_POST['class'];
     
     $mail = new PHPMailer();
     $mail->isSMTP();                   // Отправка через SMTP
-    $mail->Host   = 'smtp.yandex.ru';  // Адрес SMTP сервера
-    $mail->SMTPAuth   = true;   
-    $mail->Username   = 'dgfpupkin';       // ваше имя пользователя (без домена и @)
-    $mail->Password   = 'tuvzxyeqthqdsxzu';    // ваш пароль
+    $mail->Host = 'smtp.yandex.ru';  // Адрес SMTP сервера
+    $mail->SMTPAuth = true;   
+    $mail->Username = 'dgfpupkin';       // ваше имя пользователя (без домена и @)
+    $mail->Password = 'tuvzxyeqthqdsxzu';    // ваш пароль
     $mail->SMTPSecure = 'SSL';         // шифрование ssl
-    $mail->Port   = 587;               // порт подключения
+    $mail->Port = 587;               // порт подключения
      
     $mail->setFrom('dgfpupkin@yandex.ru', 'Конкурс Смолмаш');    // от кого
     $mail->addAddress('dgfpupkin@yandex.ru', 'Участник записался'); // кому
