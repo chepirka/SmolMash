@@ -46,7 +46,7 @@ p, h2, li, label{
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: rgb(58, 58, 57);
 }
 .logo_smolMash{
