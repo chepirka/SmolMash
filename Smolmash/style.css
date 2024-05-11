@@ -45,16 +45,17 @@ p, h2, li, label{
     width: 100%;
     height: 100px;
     display: flex;
-    /* position: fixed; */
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: rgb(58, 58, 57);
 }
 .logo_smolMash{
-    margin-left: 1%;
+    margin: 1%;
+    margin-right: 0%;
 }
 .logo_roborabbit{
-    margin-right: 1%;
+    margin: 1%;
+    margin-left: 0%;
 }
 /*начало первой секции*/
 .firstBlock{
