@@ -40,6 +40,7 @@ p, h2, li, label{
     color: rgb(255, 25, 33);
     font-size: 50px;
 }
+
 .header{
     width: 100vw;
     height: 100px;
@@ -122,6 +123,9 @@ p, h2, li, label{
     justify-content: center;
     align-items: center;
     transition: 0.5s;
+}
+.ji{
+    font-size: 20px;
 }
 .button:hover{
     background-color: rgb(58, 58, 57);
@@ -477,14 +481,15 @@ p, h2, li, label{
     background-color: rgba(58, 58, 57, 50%);
     position: relative;
 }
-#fc{
+/* #fc{
     margin-top: -100.5vh;
-}
+} */
 .participants{
     margin-top: 10%;
 }
 .gifts{
-    margin-top: 40%;
+    margin-top: 35%;
+    margin-left: 50%;
 }
 .line{
     width: 200%;
@@ -492,7 +497,7 @@ p, h2, li, label{
     margin-left: -100%;
 }
 .line_r{
-    width: 305%;
+    width: 33vw;
     border: 2px solid red;
 }
 .list{
@@ -619,3 +624,190 @@ input:focus{
     черный - rgb(58, 58, 57)
     серый - rgb(270, 231, 232) 
 */
+
+@media(max-width: 1339px){
+    body{
+        width: 1339px;
+    }
+    .container{
+        width: 1140px;
+    }
+}
+@media(max-width: 1200px){
+    .container{
+        width: 960px;
+        border: 2px solid green;
+    }
+    .white_text{
+        color: white;
+        font-size: 30px;
+    }
+    .red_text{
+        color: rgb(255, 25, 33);
+        font-size: 30px;
+    }
+    .firstBlock_picture{
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        margin-top: 16%;
+    }
+    .firstBlock_picture__pic{
+        width: 300px;
+        height: 350px;
+    }
+    .firstBlock_text{
+        width: 650px;
+        text-align: center;
+        margin-top: 150px;
+    }
+    .firstBlock_text__date{
+        color: white;
+        margin-top: 10px;
+        font-size: 28px;
+    }
+    .firstBlock_text__info{
+        margin-top: 20px;
+        color: white;
+        font-size: 20px;
+    }
+    .firstBlock_text__buttons{
+        width: 500px;
+        height: 100px;
+        margin-left: 100px;
+        margin-top: 30px;
+        display: flex;
+    }
+    .button{
+        width: 240px;
+        height: 55px;
+        margin: 10px;
+        border-radius: 50px;
+        background-color: rgb(255, 25, 33);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+    }
+}
+@media(max-width: 992px){
+    .container{
+        width: 720px;
+        border: 2px solid red;
+    }
+    .white_text{
+        color: white;
+        font-size: 26px;
+    }
+    .red_text{
+        color: rgb(255, 25, 33);
+        font-size: 26px;
+    }
+    .firstBlock_picture{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        margin-top: 40%;
+    }
+    .firstBlock_picture__pic{
+        width: 270px;
+        height: 320px;
+    }
+    .firstBlock_text{
+        width: 500px;
+        text-align: center;
+        margin-top: 150px;
+    }
+    .firstBlock_text__date{
+        color: white;
+        margin-top: 8px;
+        font-size: 23px;
+    }
+    .firstBlock_text__info{
+        margin-top: 20px;
+        color: white;
+        font-size: 18px;
+    }
+    .firstBlock_text__buttons{
+        width: 420px;
+        height: 100px;
+        margin-left: 80px;
+        margin-top: 30px;
+        display: flex;
+    }
+    .button{
+        width: 200px;
+        height: 42px;
+        margin: 10px;
+        border-radius: 50px;
+        background-color: rgb(255, 25, 33);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+    }
+    .ji{
+        font-size: 18px;
+    }
+}
+@media(max-width: 768px){
+    .container{
+        width: 540px;
+        border: 2px solid blue;
+    }
+    .white_text{
+        font-size: 20px;
+    }
+    .red_text{
+        font-size: 20px;
+    }
+    .firstBlock_picture{
+        width: 0px;
+        height: 0px;
+        border-radius: 0px;
+        margin-top: 0px;
+    }
+    .firstBlock_picture__pic{
+        width: 0px;
+        height: 0px;
+    }
+    .firstBlock_text{
+        width: 500px;
+        text-align: center;
+        margin-top: 150px;
+    }
+    .firstBlock_text__date{
+        color: white;
+        margin-top: 8px;
+        font-size: 23px;
+    }
+    .firstBlock_text__info{
+        margin-top: 20px;
+        color: white;
+        font-size: 18px;
+    }
+    .firstBlock_text__buttons{
+        width: 420px;
+        height: 100px;
+        margin-left: 80px;
+        margin-top: 30px;
+        display: flex;
+    }
+    .button{
+        width: 200px;
+        height: 55px;
+        margin: 10px;
+        border-radius: 50px;
+        background-color: rgb(255, 25, 33);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+    }
+    .ji{
+        font-size: 18px;
+    }
+}
