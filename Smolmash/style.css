@@ -27,6 +27,9 @@ h1{
 p, h2, li, label{
     font-family: "Roboto", sans-serif;
 }
+a{
+    text-decoration: none;
+}
 #main_sec{
     display: flex;
     flex-direction: column;
@@ -65,12 +68,13 @@ p, h2, li, label{
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Roboto", sans-serif;
 }
 .navigation_block{
     width: auto;
     margin: 20px;
+    color: white;
 }
 
 /*начало первой секции*/
@@ -153,7 +157,7 @@ p, h2, li, label{
 #discription{
     width: 100%;
     height: 1080px;
-    background-color: #3A3A39;
+    background-color: rgba(58, 58, 57);
     display: flex;
     justify-content: center;
     position: relative;
@@ -392,7 +396,7 @@ p, h2, li, label{
     width: 35%;
     height: 80%;
     border-radius: 20px;
-    background-color: rgb(58, 58, 57, 95%);
+    background-color: rgb(58, 58, 57);
     display: flex;
 }
 .one_text{
@@ -404,7 +408,7 @@ p, h2, li, label{
     width: 24%;
     height: 90%;
     border-radius: 20px;
-    background-color: rgb(58, 58, 57, 95%);
+    background-color: rgb(58, 58, 57);
 }
 .two_block_head{
     font-size: 19px;
@@ -497,12 +501,14 @@ p, h2, li, label{
     height: 1080px;
     background-color: rgba(58, 58, 57, 50%);
     position: relative;
+    overflow: hidden;
 }
 /* #fc{
     margin-top: -100.5vh;
 } */
 .participants{
     margin-top: 10%;
+
 }
 .gifts{
     margin-top: 35%;
@@ -514,7 +520,7 @@ p, h2, li, label{
     margin-left: -100%;
 }
 .line_r{
-    width: 33vw;
+    width: 100vw;
     border: 2px solid red;
 }
 .list{
@@ -657,6 +663,25 @@ input:focus{
     .red_text{
         color: rgb(255, 25, 33);
         font-size: 40px;
+    }
+    .firstBlock_picture{
+        width: 400px;
+        height: 400px;
+        margin-top: 300px;
+    }
+    .firstBlock_picture__pic{
+        width: 400px;
+        height: 400px;
+    }
+    .firstBlock_text{
+        width: 750px;
+    }
+    .firstBlock_text__name{
+        width: 750px;
+        font-size: 30px;
+    }
+    .firstBlock_text__buttons{
+        margin-left: 100px;
     }
 }
 @media(max-width: 1200px){
