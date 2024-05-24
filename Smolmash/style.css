@@ -34,6 +34,14 @@ a{
     display: flex;
     flex-direction: column;
 }
+#logo_smolmash{
+    width: 268px;
+    height: 70px;
+}
+#logo_rr{
+    width: 150px;
+    height: 70px;
+}
 .white_text{
     color: white;
     font-size: 50px;
@@ -44,7 +52,7 @@ a{
 }
 
 .header{
-    width: 100%;
+    width: 100vw;
     height: 100px;
     display: flex;
     align-items: center;
@@ -54,22 +62,23 @@ a{
 .logo_smolMash{
     margin: 1%;
     margin-right: 0%;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 .logo_roborabbit{
     margin: 1%;
-    margin-right: 3%;
+    margin-right: 2%;
     margin-left: 0%;
 }
 #navigation{
-    width: 1500px;
+    width: 1440px;
     height: inherit;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     color: white;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
+    text-align: center;
 }
 .navigation_block{
     width: auto;
@@ -79,21 +88,26 @@ a{
 
 /*начало первой секции*/
 .firstBlock{
-    width: 100%;
-    height: 880px;
+    display: flex;
+    height: calc(100vh - 100px);
     /* margin-top: 100px; */
     position: relative;
     background-color: rgba(58, 58, 57, 50%);
 }
 .pic{
     position: absolute;
-    width: inherit;
+    width: 100vw;
     height: inherit;
     z-index: -1;
     top: 0px;
 }
+#cont1{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
 .container{
-    width: 1320px;
+    width: 1440px;
     height: 100%;
     margin: 0 auto;
 }
@@ -101,7 +115,6 @@ a{
     width: 500px;
     height: 500px;
     border-radius: 100%;
-    margin-top: 12%;
 }
 .firstBlock_picture__pic{
     width: 450px;
@@ -110,7 +123,6 @@ a{
 .firstBlock_text{
     width: 900px;
     text-align: center;
-    margin-top: 250px;
 }
 .firstBlock_text__name{
     display: flex;
@@ -647,12 +659,16 @@ input:focus{
     черный - rgb(58, 58, 57)
     серый - rgb(270, 231, 232) 
 */
+@media(min-width: 1441px){
 
-@media(max-width: 1400px){
-    body{
-        width: 1400px;
+}
+@media(max-width: 1440px){
+    #cont1{
+
     }
     .container{
+        display: flex;
+        align-items:center;
         width: 1140px;
         border: 1px solid orange;
     }
@@ -667,7 +683,7 @@ input:focus{
     .firstBlock_picture{
         width: 400px;
         height: 400px;
-        margin-top: 300px;
+        margin-top: 0px;
     }
     .firstBlock_picture__pic{
         width: 400px;
@@ -675,6 +691,7 @@ input:focus{
     }
     .firstBlock_text{
         width: 750px;
+        margin-top: 0px; 
     }
     .firstBlock_text__name{
         width: 750px;
@@ -683,12 +700,22 @@ input:focus{
     .firstBlock_text__buttons{
         margin-left: 100px;
     }
+    .pic{
+        width: calc(100vw + 10%);
+    height: 100vh;
+    margin-left: -10%;
+    }
+    #navigation{
+        font-size: 12px;
+    }
 }
 @media(max-width: 1200px){
     body{
         width: 1200px;
     }
     .container{
+        display: flex;
+        align-items:center;
         width: 960px;
         border: 2px solid green;
     }
@@ -704,7 +731,6 @@ input:focus{
         width: 300px;
         height: 300px;
         border-radius: 100%;
-        margin-top: 16%;
     }
     .firstBlock_picture__pic{
         width: 300px;
@@ -713,7 +739,6 @@ input:focus{
     .firstBlock_text{
         width: 650px;
         text-align: center;
-        margin-top: 150px;
     }
     .firstBlock_text__date{
         color: white;
@@ -744,10 +769,23 @@ input:focus{
         align-items: center;
         transition: 0.5s;
     }
+    .pic{
+        width: calc(100vw + 10%);
+    height: 100vh;
+    margin-left: -10%;
+    }
 }
 @media(max-width: 992px){
     body{
         width: 992px;
+    }
+    #logo_smolmash{
+        width: 140px;
+        height: 70px;
+    }
+    #logo_rr{
+        width: 100px;
+        height: 70px;
     }
     .container{
         width: 720px;
@@ -762,29 +800,31 @@ input:focus{
         font-size: 26px;
     }
     .firstBlock_picture{
-        width: 200px;
-        height: 200px;
-        border-radius: 100%;
-        margin-top: 40%;
+        width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    margin-top: 0px;
     }
     .firstBlock_picture__pic{
-        width: 270px;
-        height: 320px;
+        width: 0px;
+    height: 0px;
     }
     .firstBlock_text{
         width: 500px;
         text-align: center;
-        margin-top: 150px;
     }
     .firstBlock_text__date{
         color: white;
         margin-top: 8px;
-        font-size: 23px;
+        font-size: 20px;
+    }
+    .firstBlock_text__name{
+        width: 500px;
     }
     .firstBlock_text__info{
         margin-top: 20px;
         color: white;
-        font-size: 18px;
+        font-size: 16px;
     }
     .firstBlock_text__buttons{
         width: 420px;
@@ -807,6 +847,11 @@ input:focus{
     }
     .ji{
         font-size: 18px;
+    }
+    .pic{
+        width: calc(100vw + 30%);
+    height: 100vh;
+    margin-left: -20%;
     }
 }
 @media(max-width: 768px){
@@ -836,7 +881,6 @@ input:focus{
     .firstBlock_text{
         width: 500px;
         text-align: center;
-        margin-top: 150px;
     }
     .firstBlock_text__date{
         color: white;
@@ -869,5 +913,21 @@ input:focus{
     }
     .ji{
         font-size: 18px;
+    }
+    .pic{
+        width: calc(100vw + 70%);
+    height: 100vh;
+    margin-left: -40%;
+    }
+    #navigation{
+        font-size: 8px;
+    }
+    #logo_smolmash{
+        width: 110px;
+        height: 40px;
+    }
+    #logo_rr{
+        width: 80px;
+        height: 40px;
     }
 }
