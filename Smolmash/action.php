@@ -39,8 +39,6 @@
                     </html></body>");
     // Отправляем
     if ($mail->send()) {
-      header('location: thank-you.html');
-      sleep(1);
       header('location: index.html');
     } else {
       echo 'Ошибка: ' . $mail->ErrorInfo;
