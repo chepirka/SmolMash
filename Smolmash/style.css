@@ -100,7 +100,6 @@ a{
     /* margin-top: 100px; */
     position: relative;
     background: url("/Smolmash/pictures/kids1.png")center center / cover no-repeat;
-    background-color: rgba(58, 58, 57, 50%);
 }
 .pic{
     position: absolute;
@@ -389,8 +388,7 @@ a{
     width: 100%;
     height: 1080px;
     position: relative;
-    /* margin-top: 100vh; */
-    background-color: rgba(58, 58, 57, 50%);
+    background: url("./pictures/kids2.png")center center / cover no-repeat;
 }
 .thirdBlock_text{
     text-align: center;
@@ -520,7 +518,7 @@ a{
 .fithBlock{
     width: 100%;
     height: 1080px;
-    background-color: rgba(58, 58, 57, 50%);
+    background: url("./pictures/kids3.png")center center / cover no-repeat;
     position: relative;
     overflow: hidden;
 }
