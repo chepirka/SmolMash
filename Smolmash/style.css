@@ -36,7 +36,7 @@ a{
 }
 #logo_smolmash{
     width: 268px;
-    height: 70px;
+    height: 85px;
 }
 #logo_rr{
     width: 150px;
@@ -73,17 +73,24 @@ a{
     width: 1440px;
     height: inherit;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     color: white;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     text-align: center;
 }
+.bdis{
+    margin-left: 20px;
+}
+.breg{
+    margin-right: 20px;
+}
 .navigation_block{
     width: auto;
-    margin: 20px;
     color: white;
+    font-size: 17px;
+    margin: 10px;
 }
 
 /*начало первой секции*/
@@ -92,7 +99,7 @@ a{
     height: calc(100vh - 100px);
     /* margin-top: 100px; */
     position: relative;
-    background: url("./pictures/kids1.png")center center / cover no-repeat;
+    background: url("/Smolmash/pictures/kids1.png")center center / cover no-repeat;
     background-color: rgba(58, 58, 57, 50%);
 }
 .pic{
@@ -115,7 +122,6 @@ a{
 .firstBlock_picture{
     width: 500px;
     height: 500px;
-    border-radius: 100%;
 }
 .firstBlock_picture__pic{
     width: 450px;
@@ -420,7 +426,7 @@ a{
 }
 .two_block{
     width: 24%;
-    height: 90%;
+    height: 80%;
     border-radius: 20px;
     background-color: rgb(58, 58, 57);
 }
@@ -487,11 +493,12 @@ a{
     align-items:center;
 }
 #sec4_plan_txt{
-    width: 700px;
+    width: 550px;
     height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 20px;
 }
 .sec4_line{
     width: 5px;
@@ -505,7 +512,6 @@ a{
 }
 #plan_txt{
     height: 50px;
-    text-align: center;
     line-height: 45px;
     font-size: 32px;
 }
@@ -667,8 +673,6 @@ input:focus{
 
     }
     .container{
-        /*display: flex;
-        align-items:center;*/
         width: 1140px;
         border: 1px solid orange;
     }
@@ -737,8 +741,8 @@ input:focus{
         height: 100vh;
     }
     .circys{
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
         border: 4px solid rgb(215, 25, 33);
     }
     .sec4_line{
@@ -761,6 +765,7 @@ input:focus{
     }
     .participants{
         margin-left: 12%;
+        margin-top: 15%;
     }
     .gifts{
         margin-left: 32%;
@@ -771,5 +776,65 @@ input:focus{
     }
     .form_form{
         height: 100vh;
+    }
+}
+@media(max-width: 1200px){
+    #cont1{
+    }
+    .container{
+        width: 960px;
+        border: 2px solid green;
+    }
+    .header{
+        height: 70px;
+    }
+    #logo_smolmash{
+        width: 200px;
+        height: 60px;
+    }
+    #logo_rr{
+        width: 120px;
+        height: 50px;
+    }
+    .navigation_block{
+        font-size: 14px;
+    }
+    .firstBlock_picture{
+        width: 300px;
+        height: 300px;
+        height: 25%;
+        margin-top: 5%;
+    }
+    .firstBlock_picture__pic{
+        width: 300px;
+        height: 100%;
+    }
+    .firstBlock{
+        height: calc(100vh - 70px);
+    }
+    .firstBlock_text{
+        width: 650px;
+    }
+    .firstBlock_text__name{
+        width: 650px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #sec2_line_p{
+        width: 750px;
+        font-size: 23px;
+    }
+    .two_block{
+        height: 80%;
+    }
+    .h1_block{
+        font-size: 20px;
+    }
+    .two_block_body{
+        display: flex;
+        justify-content: center;
+    }
+    .two__block_text{
+        width: 90%;
     }
 }
