@@ -411,6 +411,7 @@ a{
     border-radius: 20px;
     background-color: rgb(58, 58, 57);
     display: flex;
+    flex-direction: column;
 }
 .one_text{
     display: flex;
@@ -432,7 +433,7 @@ a{
     color: white;
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 24px;
 }
 .block_img{
     width: 100px;
@@ -442,6 +443,8 @@ a{
 .block_h1{
     margin-top: 10px;
     text-align: center;
+    display: flex;
+    align-items: center;
 }
 /*конец третьей секции*/
 /*начало четвертой секции*/
@@ -479,7 +482,6 @@ a{
     display: flex;
     flex-direction: column;
     height: 75%;
-    justify-content: space-around;
     margin-left: 100px;
     width: 50px;
     align-items:center;
@@ -665,8 +667,8 @@ input:focus{
 
     }
     .container{
-        display: flex;
-        align-items:center;
+        /*display: flex;
+        align-items:center;*/
         width: 1140px;
         border: 1px solid orange;
     }
@@ -712,8 +714,62 @@ input:focus{
     }
     .sec2_line{
         width: 80%;
+        height: 280px;
+        top: 470px;
     }
     #sec2_line_p{
-        width: 960px;
+        width: 900px;
+        font-size: 24px;
+    }
+    #discription{
+        height: 100vh;
+    }
+    .thirdBlock{
+        height: 100vh;
+    }
+    .block_img{
+        margin: 15px;
+    }
+    .block_text{
+        font-size: 20px;
+    }
+    #events{
+        height: 100vh;
+    }
+    .circys{
+        width: 20px;
+        height: 20px;
+        border: 4px solid rgb(215, 25, 33);
+    }
+    .sec4_line{
+        height: 25%;
+    }
+    #sec4_plan_txt{
+        justify-content: space-between;
+        height: 69%;
+    }
+    #plan_txt{
+        line-height: 0px;
+        font-size: 28px;
+    }
+    .fithBlock{
+        height: 100vh;
+    }
+    .line{
+        width: 250%;
+        margin-left: -150%;
+    }
+    .participants{
+        margin-left: 12%;
+    }
+    .gifts{
+        margin-left: 32%;
+        margin-top: 40%;
+    }
+    #organisators{
+        height: 100vh;
+    }
+    .form_form{
+        height: 100vh;
     }
 }
