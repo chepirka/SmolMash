@@ -50,8 +50,6 @@ function toggleMenu() {
 function scrollToSection(id) {
     const element = document.getElementById(id);
     if (element) {
-        body.classList.remove('no-scroll');
-        navLinks.style.display = 'none'
         element.scrollIntoView({ behavior: 'smooth' });
     }
 }
