@@ -99,7 +99,7 @@ a{
     height: calc(100vh - 100px);
     /* margin-top: 100px; */
     position: relative;
-    background: url("/Smolmash/pictures/kids1.png")center center / cover no-repeat;
+    background: url("./pictures/kids1.png")center center / cover no-repeat;
 }
 .pic{
     position: absolute;
@@ -726,9 +726,6 @@ input:focus{
     #discription{
         height: 100vh;
     }
-    .thirdBlock{
-        height: 100vh;
-    }
     .block_img{
         margin: 15px;
     }
@@ -834,5 +831,92 @@ input:focus{
     }
     .two__block_text{
         width: 90%;
+    }
+}
+@media(max-width: 992px){
+    #cont1{
+    }
+    .container{
+        width: 760px;
+        border: 2px solid brown;
+    }
+    .header{
+        height: 50px;
+    }
+    #logo_smolmash{
+        width: 120px;
+        height: 40px;
+    }
+    #logo_rr{
+        width: 90px;
+        height: 40px;
+    }
+    .navigation_block{
+        font-size: 12px;
+    }
+    .firstBlock{
+        height: calc(100vh - 50px);
+    }
+    .firstBlock_text{
+        width: 100%;
+        text-align: center;
+        margin-left: 5px;
+    }
+    .firstBlock_text__name{
+        width: 650px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+    }
+    .firstBlock_text__date{
+        margin-top: 5px;
+    }
+    .firstBlock_text__info{
+        margin-top: 10px;
+    }
+    .firstBlock_picture{
+        width: 0px;
+        height: 0px;
+        height: 0px;
+        margin-top: 0px;
+    }
+    .firstBlock_picture__pic{
+        width: 0px;
+        height: 0px;
+    }
+    #sec2_line_p{
+        width: 550px;
+        font-size: 20px;
+    }
+    .block_img{
+        width: 70px;
+        height: 70px;
+        margin: 10px 10px 0px 0px;
+    }
+    .block_h1{
+        font-size: 19px;
+    }
+    #ft{
+        margin-left: 10px;
+    }
+    #sp{
+        margin: 10px 0px 0px 10px;
+    }
+    .two_block{
+        width: 32%;
+    }
+    #sec4_plan{
+        margin-left: 10px;
+    }
+    #plan_txt{
+        width: 500px;
+    }
+    #sec4_plan_txt{
+        height: 68%;
+        margin-top: 10px;
+    }
+    #pagb{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
