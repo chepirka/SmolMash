@@ -33,3 +33,19 @@ jQuery(document).ready(function () {
 
 
 });
+function toggleMenu() {
+    const navLinks = document.getElementById('nav-links');
+    navLinks.style.display = navLinks.style.display === 'block' ? 'none' : 'block';
+}
+function toggleMenu() {
+    const navLinks = document.getElementById('nav-links');
+    navLinks.style.display = navLinks.style.display === 'block' ? 'none' : 'block';
+
+    // Управление состоянием прокрутки
+    const body = document.body;
+    if (navLinks.style.display === 'block') {
+        body.classList.add('no-scroll');
+    } else {
+        body.classList.remove('no-scroll');
+    }
+}

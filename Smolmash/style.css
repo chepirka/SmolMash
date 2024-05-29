@@ -30,6 +30,11 @@ p, h2, li, label{
 a{
     text-decoration: none;
 }
+#navbar{
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
 #main_sec{
     display: flex;
     flex-direction: column;
@@ -653,6 +658,34 @@ input:focus{
 }
 /*конец седьмой секции*/
 
+#hamburger-icon {
+    cursor: pointer;
+    display: none;
+}
+
+#hamburger-icon div {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+#nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#nav-links li {
+    padding: 0 15px;
+}
+
+#nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
 @font-face {
     font-family: "MarvinVisions-Bold";
     src: url("./fonts/MarvinVisions-Bold.otf");
@@ -781,7 +814,7 @@ input:focus{
         border: 2px solid green;
     }
     .header{
-        height: 70px;
+        height: 100px;
     }
     #logo_smolmash{
         width: 200px;
@@ -805,7 +838,7 @@ input:focus{
         height: 100%;
     }
     .firstBlock{
-        height: calc(100vh - 70px);
+        height: calc(100vh - 100px);
     }
     .firstBlock_text{
         width: 650px;
@@ -841,7 +874,7 @@ input:focus{
         border: 2px solid brown;
     }
     .header{
-        height: 50px;
+        height: 100px;
     }
     #logo_smolmash{
         width: 120px;
@@ -851,11 +884,8 @@ input:focus{
         width: 90px;
         height: 40px;
     }
-    .navigation_block{
-        font-size: 12px;
-    }
     .firstBlock{
-        height: calc(100vh - 50px);
+        height: 900px;
     }
     .firstBlock_text{
         width: 100%;
@@ -918,5 +948,40 @@ input:focus{
     #pagb{
         display: flex;
         flex-wrap: wrap;
+    }
+    #navbar{
+        width: 40px;
+        height: 40px;
+        overflow: visible;
+    }
+    #navigation{
+        width: 0px;
+        height: 0px;
+        overflow: hidden;
+    }
+    #hamburger-icon {
+        display: block;
+    }
+
+    #nav-links {
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(22, 22, 22, 0.9);
+        display: none;
+        z-index: 100;
+    }
+
+    #nav-links li {
+        text-align: center;
+        padding: 10px 0;
+    }
+    body.no-scroll {
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
     }
 }
