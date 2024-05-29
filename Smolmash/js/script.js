@@ -33,19 +33,25 @@ jQuery(document).ready(function () {
 
 
 });
-function toggleMenu() {
-    const navLinks = document.getElementById('nav-links');
-    navLinks.style.display = navLinks.style.display === 'block' ? 'none' : 'block';
-}
-function toggleMenu() {
-    const navLinks = document.getElementById('nav-links');
-    navLinks.style.display = navLinks.style.display === 'block' ? 'none' : 'block';
 
-    // Управление состоянием прокрутки
+
+
+function toggleMenu() {
+    const navLinks = document.getElementById('nav-links');
     const body = document.body;
+    navLinks.style.display = navLinks.style.display === 'block' ? 'none' : 'block';
     if (navLinks.style.display === 'block') {
         body.classList.add('no-scroll');
     } else {
         body.classList.remove('no-scroll');
+    }
+}
+
+function scrollToSection(id) {
+    const element = document.getElementById(id);
+    if (element) {
+        body.classList.remove('no-scroll');
+        navLinks.style.display = 'none'
+        element.scrollIntoView({ behavior: 'smooth' });
     }
 }

@@ -816,13 +816,13 @@ input:focus{
     .header{
         height: 100px;
     }
-    #logo_smolmash{
-        width: 200px;
-        height: 60px;
-    }
     #logo_rr{
-        width: 120px;
-        height: 50px;
+        width: 150px;
+        height: 70px;
+    }
+    #logo_smolmash{
+        width: 268px;
+        height: 85px;
     }
     .navigation_block{
         font-size: 14px;
@@ -876,13 +876,13 @@ input:focus{
     .header{
         height: 100px;
     }
-    #logo_smolmash{
-        width: 120px;
-        height: 40px;
-    }
     #logo_rr{
-        width: 90px;
-        height: 40px;
+        width: 150px;
+        height: 70px;
+    }
+    #logo_smolmash{
+        width: 268px;
+        height: 85px;
     }
     .firstBlock{
         height: 900px;
