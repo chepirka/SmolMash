@@ -680,10 +680,11 @@ input:focus{
 }
 
 #nav-links li {
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 #nav-links a {
+    font-size: 24px;
     color: white;
     text-decoration: none;
 }
@@ -968,6 +969,7 @@ input:focus{
     #nav-links {
         flex-direction: column;
         position: absolute;
+        align-items:center;
         top: 0;
         left: 0;
         width: 100%;
@@ -979,7 +981,7 @@ input:focus{
 
     #nav-links li {
         text-align: center;
-        padding: 10px 0;
+        padding: 20px 0;
     }
     body.no-scroll {
         overflow: hidden;
