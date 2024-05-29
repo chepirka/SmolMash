@@ -105,6 +105,7 @@ a{
     /* margin-top: 100px; */
     position: relative;
     background: url("./pictures/kids1.png")center center / cover no-repeat;
+    overflow: hidden;
 }
 .pic{
     position: absolute;
@@ -394,6 +395,7 @@ a{
     height: 1080px;
     position: relative;
     background: url("./pictures/kids2.png")center center / cover no-repeat;
+    overflow: hidden;
 }
 .thirdBlock_text{
     text-align: center;
@@ -877,11 +879,11 @@ input:focus{
         height: 100px;
     }
     #logo_rr{
-        width: 150px;
-        height: 70px;
+        width: 140px;
+        height: 65px;
     }
     #logo_smolmash{
-        width: 268px;
+        width: 260px;
         height: 85px;
     }
     .firstBlock{
