@@ -1115,6 +1115,9 @@ input:focus{
         width: 500px;
         margin-right: 10%;
     }
+    .thirdBlock{
+        height: auto;
+    }
     .one{
         height: auto;
         margin-top: 10px;
@@ -1122,9 +1125,39 @@ input:focus{
         flex-wrap: wrap;
     }
     .one_block{
-        width: 100%;
+        width: 80%;
+        margin-top: 20px;
+        padding: 10px;
+        padding-bottom: 30px;
     }
     .block_h1{
         font-size: 30px;
+    }
+    .block_img{
+        width: 80px !important;
+        height: 80px !important;
+    }
+    #sp{
+        margin: 10px 10px 0px 0px;
+    }
+    .block_text{
+        font-size: 24px;
+    }
+    .two{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .two_block{
+        width: 80%;
+        margin-top: 20px;
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+    .h1_block{
+        font-size: 30px;
+    }
+    #dks{
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
