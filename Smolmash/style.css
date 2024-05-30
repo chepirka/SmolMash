@@ -1124,4 +1124,7 @@ input:focus{
     .one_block{
         width: 100%;
     }
+    .block_h1{
+        font-size: 30px;
+    }
 }
