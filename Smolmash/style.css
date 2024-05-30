@@ -879,6 +879,12 @@ input:focus{
     .header{
         height: 100px;
     }
+    .block_text{
+        font-size: 21px;
+    }
+    .list_o{
+        font-size: 30px;
+    }
     #logo_rr{
         width: 140px;
         height: 65px;
@@ -906,6 +912,7 @@ input:focus{
     }
     .firstBlock_text__info{
         margin-top: 10px;
+        font-size: 27px;
     }
     .firstBlock_picture{
         width: 0px;
@@ -917,9 +924,13 @@ input:focus{
         width: 0px;
         height: 0px;
     }
+    .sec2_line{
+        width: 700px;
+        height: 300px;
+    }
     #sec2_line_p{
-        width: 550px;
-        font-size: 20px;
+        width: 600px;
+        font-size: 25px;
     }
     .block_img{
         width: 70px;
@@ -987,5 +998,26 @@ input:focus{
         overflow: hidden;
         position: fixed;
         width: 100%;
+    }
+    #discription{
+        height: 900px;
+    }
+    .thirdBlock{
+        height: 900px;
+    }
+    #events{
+        height: 900px;
+    }
+    .fithBlock{
+        height: 900px;
+    }
+    #organisators{
+        height: 900px;
+    }
+    .form{
+        height: 900px;
+    }
+    .form_form{
+        height: 900px; 
     }
 }
