@@ -1028,3 +1028,20 @@ input:focus{
         font-size: 40px;
     }
 }
+@media(max-width: 768px){
+    #cont1{      
+    }
+    .container{
+        width: 540px;
+        border: 2px solid black;
+    }
+    .firstBlock{
+        height: auto;
+    }
+    .firstBlock_text{
+        margin-top: 15px;
+    }
+    .firstBlock_text__info{
+        width: inherit;
+    }
+}
