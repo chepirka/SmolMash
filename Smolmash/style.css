@@ -844,7 +844,7 @@ input:focus{
         height: 100%;
     }
     .firstBlock{
-        height: calc(100vh - 100px);
+        height: 980px;
     }
     .firstBlock_text{
         width: 650px;
