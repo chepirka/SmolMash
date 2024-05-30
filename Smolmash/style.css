@@ -706,8 +706,8 @@ input:focus{
     #cont1{
 
     }
-    .discription{
-        
+    #discription{
+        height: 980px;
     }
     .container{
         width: 1140px;
@@ -765,9 +765,6 @@ input:focus{
         width: 900px;
         font-size: 24px;
     }
-    #discription{
-        height: 100vh;
-    }
     .block_img{
         margin: 15px;
     }
@@ -775,7 +772,7 @@ input:focus{
         font-size: 20px;
     }
     #events{
-        height: 100vh;
+        height: 980px;
     }
     .circys{
         width: 25px;
@@ -794,7 +791,7 @@ input:focus{
         font-size: 28px;
     }
     .fithBlock{
-        height: 100vh;
+        height: 980px;
     }
     .line{
         width: 250%;
@@ -809,10 +806,10 @@ input:focus{
         margin-top: 40%;
     }
     #organisators{
-        height: 100vh;
+        height: 980px;
     }
     .form_form{
-        height: 100vh;
+        height: 980px;
     }
 }
 @media(max-width: 1200px){
