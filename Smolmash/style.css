@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 auto;
     user-select: none;
     scroll-behavior: smooth;
 }
@@ -100,6 +100,7 @@ a{
 
 /*начало первой секции*/
 .firstBlock{
+    width: 100vw;
     display: flex;
     height: calc(100vh - 100px);
     /* margin-top: 100px; */
@@ -1026,5 +1027,24 @@ input:focus{
     }
     #nav-links a{
         font-size: 40px;
+    }
+}
+@media(max-width: 768px){
+    #cont1{      
+        display: flex;
+        align-content: center;
+    }
+    .container{
+        width: 540px;
+        border: 2px solid black;
+    }
+    .firstBlock{
+        height: auto;
+    }
+    .firstBlock_text{
+        margin-top: 15px;
+    }
+    .firstBlock_text__info{
+        width: 540px;
     }
 }
