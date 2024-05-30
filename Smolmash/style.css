@@ -529,6 +529,7 @@ a{
     background: url("./pictures/kids3.png")center center / cover no-repeat;
     position: relative;
     overflow: hidden;
+    z-index: 1;
 }
 /* #fc{
     margin-top: -100.5vh;
@@ -690,6 +691,26 @@ input:focus{
     text-decoration: none;
 }
 
+.img_fith{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 0px;
+    left: 900px;
+    z-index: -1;
+}
+.img_fith:nth-child(2){
+    width: 620px;
+    height: 620px;
+    top: 450px;
+    left: 150px;
+}
+.img_fith:nth-child(3){
+    width: 450px;
+    height: 450px;
+    top: 0px;
+    left: 400px;
+}
 @font-face {
     font-family: "MarvinVisions-Bold";
     src: url("./fonts/MarvinVisions-Bold.otf");
@@ -704,6 +725,24 @@ input:focus{
     серый - rgb(270, 231, 232) 
 */
 @media(max-width: 1440px){
+    .img_fith{
+        width: 350px;
+        height: 350px;
+        top: 50px;
+        left: 780px;
+    }
+    .img_fith:nth-child(2){
+        width: 500px;
+        height: 500px;
+        top: 470px;
+        left: 120px;
+    }
+    .img_fith:nth-child(3){
+        width: 350px;
+        height: 350px;
+        top: 50px;
+        left: 400px;
+    }
     #cont1{
 
     }
