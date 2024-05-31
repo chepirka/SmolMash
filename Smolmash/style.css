@@ -722,7 +722,18 @@ input:focus{
     color: #D71921;
     font-size: 30px;
 }
-
+#pagb{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+.div_hromb{
+    width: 100%;
+    display: flex;
+}
+.div_hromb:nth-child(2){
+    justify-content: flex-end;
+}
 /*  
 цвета: 
     красный - rgb(255, 25, 33)
