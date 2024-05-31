@@ -24,7 +24,7 @@
                 <li><a href="#discription" onclick="toggleMenu()">Описание</a></li>
                 <li><a href="#themes" onclick="toggleMenu()">Темы конкурса</a></li>
                 <li><a href="#events" onclick="toggleMenu()">Этапы проведения</a></li>
-                <li><a href="#presents" onclick="toggleMenu()">Участники и призы</a></li>
+                <li><a href="#presents" onclick="toggleMenu()">Перечень призов</a></li>
                 <li><a href="#organisators" onclick="toggleMenu()">Организаторы и спонсоры</a></li>
                 <li><a href="#form" onclick="toggleMenu()">Регистрация</a></li>
                 <li><a href="#" onclick="toggleMenu()"><div style="width: 50px; height: 50px;"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve"><g><g id="cross"><g><polygon points="612,36.004 576.521,0.603 306,270.608 35.478,0.603 0,36.004 270.522,306.011 0,575.997 35.478,611.397 306,341.411 576.521,611.397 612,575.997 341.459,306.011 " fill="#000000" style="fill: rgb(255, 255, 255);"></polygon></g></g></g></svg></div></a></li>
@@ -34,7 +34,7 @@
             <a href="#discription"><div class="navigation_block bdis">Описание</div></a>
             <a href="#themes"><div class="navigation_block">Темы конкурса</div></a>
             <a href="#events"><div class="navigation_block">Этапы проведения</div></a>
-            <a href="#presents"><div class="navigation_block">Участники и призы</div></a>
+            <a href="#presents"><div class="navigation_block">Перечень призов</div></a>
             <a href="#organisators"><div class="navigation_block">Организаторы и спонсоры</div></a>
             <a href="#form"><div class="navigation_block breg">Регистрация</div></a>
         </div>
@@ -48,7 +48,7 @@
             <div class="container" id="cont1">
                 <div style="display: flex;">
                     <div class="firstBlock_text">
-                        <h1 class="firstBlock_text__name"><span class="white_text">Фабрика инженерных </span><span class="red_text">талантов</span></h1>
+                        <h1 class="firstBlock_text__name"><span class="white_text">Фабрика инженерных</span><span class="red_text">талантов</span></h1>
                         <h2 class="firstBlock_text__date">1 июня - 13 октября 2024 года</h2>
                         <p class="firstBlock_text__info">Завод «Смолмаш» совместно с Roborabbit при информационной поддержке СОГБУ "Смоленскавтодор"
                             приглашает учащихся 4-9 классов школ города Смоленска и Смоленской области принять участие в конкурсе по созданию игры на тему «Уборочная техника и уборка города». Мы предлагаем молодым разработчикам использовать свой творческий потенциал для создания инновационных и образовательных игр, с использованием любых современных игровых движков и платформ. </p>
@@ -113,6 +113,9 @@
                 <path class="hromb" id="black_hromb"/>
             </svg>
             <section class="container">
+                <div>
+                    <h1 class="white_text" style="text-align: center; margin-top: 30px; color: red;">Описание</h1>
+                </div>
                 <div class="sec2_line">
                     <p class="white_text" id="sec2_line_p">
                         В современном мире, где окружающая среда и чистота городов становятся 
@@ -147,7 +150,7 @@
                         <div class="one_block">          
                             <div id="dks" style="display: flex;">
                                 <img class="block_img" id="sp" src="./pictures/block2.png" alt="">
-                                <div class="one_text"><h1 class="block_h1">Инновации в уборочной технике</h1>
+                                <div class="one_text"><h1 class="block_h1" style="margin-right: 15px;">Инновации в уборочной технике</h1>
                             </div>
                             </div>
                             <p style="margin-top: 20px;" class="block_text"> Поощряется внедрение в игры инновационных решений в области уборочной техники.</p>
@@ -182,7 +185,7 @@
         <section id="events">
             <section id="sec4_z">
                 <svg class="svg_hromb" id="r18"> 
-                    <path d="M 15 190 L 335 190 L 175 350 L 15 190Z" fill="rgb(58, 58, 57)"/>
+                    <path d="M 15 190 L 335 190 L 175 350 L 15 190Z" fill="#E6E7E8"/>
                 </svg>
                 <svg class="svg_hromb" id="r19"> 
                     <path d="M 15 190 L 335 190 L 175 350 L 15 190Z" fill="rgb(58, 58, 57)"/>
@@ -206,7 +209,7 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M350 175L175 0L0 175L175 350L350 175ZM340 175L175 10L10 175L175 340L340 175Z" fill="rgb(58, 58, 57)"/>
                 </svg>
                 <svg class="svg_hromb" id="r26">
-                    <path class="hromb" id="black_hromb"/>
+                    <path class="hromb" id="red_hromb"/>
                 </svg>
                 <svg class="svg_hromb" id="r27">
                     <path class="hromb" id="red_hromb"/>
@@ -281,14 +284,14 @@
                             <div class="div_hromb_img">
                                 <img src="./pictures/iPad.png" class="img_win" alt="" />
                             </div>
-                            <div style="display: flex; flex-direction: column; align-items:center;margin: 0px;width: 70%;margin-left: 100px;justify-content: center;">
-                                <p class="text_win" style="font-size: 50px;"><b>I место:</b> iPad Pro 11 2022 256GB</span>
+                            <div class="div_win_text">
+                                <p class="text_win"><b>I место:</b> iPad Pro 11 2022 256GB</span>
                                 <p class="block_text">Планшет Apple iPad Pro 11 2022 — модель с рубленными гранями и закругленными углами, выполнена в корпусе из алюминия. Цвет оформления — серый. 11-дюймовый экран типа Liquid Retina. Разрешение 1668х2388 пикселей.</p>
                             </div>
                         </div>
                         <div class="div_hromb">
-                            <div style="display: flex; flex-direction: column; align-items:center;margin: 0px;width: 70%;margin-right: 80px;justify-content: center;">
-                                <p class="text_win" style="font-size: 50px;"><b>II место:</b> Ноутбук MAIBENBEN X556</p>
+                            <div class="div_win_text">
+                                <p class="text_win"><b>II место:</b> Ноутбук MAIBENBEN X556</p>
                                 <p class="block_text">Ноутбук MAIBENBEN X556 имеет дискретную видеокарту GeForce RTX 3050 с TDP 75Вт, ОЗУ DDR4 3200МГц 16ГБ, процессор AMD Ryzen 5 5600H на 6 ядер и 12 потоков с базовой частотой 3.2МГц, при нагрузке автоматическое увеличение частоты до 4.2МГц. Частота обновления экрана в 144Гц, тип матрицы IPS. Накопитель ноутбука представлен в виде M.2 SSD диска объемом 512ГБ.</p>
                             </div>
                             <div class="div_hromb_img">
@@ -299,8 +302,8 @@
                             <div class="div_hromb_img">
                                 <img src="./pictures/VR.png" class="img_win" alt="" />
                             </div>
-                            <div style="display: flex; flex-direction: column; align-items:center;margin: 0px;width: 70%;margin-left: 100px;justify-content: center;">
-                                <p class="text_win" style="font-size: 50px;"><b>III место:</b> VR-шлем Pico 4 128 GB</p>
+                            <div class="div_win_text">
+                                <p class="text_win"><b>III место:</b> VR-шлем Pico 4 128 GB</p>
                                 <p class="block_text">Шлем виртуальной реальности Pico 4 128 GB можно подключать к ПК или использовать как самостоятельное устройство. В модели два экрана типа LCD диагональю 2,56 дюйма разрешением 4320х2160 пикселей и плотностью 1200 ppi, частота экранов 90 Гц. Угол обзора 105°, что гарантирует эффект полного погружения. За производительность отвечает процессор Snapdragon XR2 от Qualcomm на 8 ядер с тактовой частотой 2,84ГГц.</p>
                             </div>
                         </div>

@@ -67,7 +67,7 @@ a{
 .logo_smolMash{
     margin: 1%;
     margin-right: 0%;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 .logo_roborabbit{
     margin: 1%;
@@ -361,26 +361,29 @@ a{
     right: 1725px;
     top: 380px;
 }
+#ft{
+    margin-left: 15px;
+}
 .sec2_line{
     background-color:rgb(230, 231, 232, 60%);
     width: 1116px;
     height: 319px;
     position: absolute;
     right: -20px;
-    top: 540px;
+    top: 560px;
     display: flex;
     align-items:center;
     border-radius: 20px;
 
 }
-.sec2_line:nth-child(1){
-    top: 73px;
+.sec2_line:nth-child(2){
+    top: 140px;
 }
 #sec2_line_p{
     font-size: 32px;
     margin-left: 25px;
     text-align: center;
-    width: 70%;
+    width: 80%;
     line-height: 50px;
 }
 .thirdBlock{
@@ -463,7 +466,7 @@ a{
 }
 #sec4_z{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: relative;
     background-color: #ffffff;
 }
@@ -658,6 +661,7 @@ input:focus{
     border-radius:20px;
     padding-bottom: 20px;
     padding-top: 20px;
+    background-color:white;
 }
 #hamburger-icon {
     cursor: pointer;
@@ -698,6 +702,8 @@ input:focus{
 .h1_block{
     color: #D71921;
     font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #pagb{
         display: flex;
@@ -710,7 +716,7 @@ input:focus{
     height: 280px;
 }
 .text_win{
-    font-size: 32px;
+    font-size: 50px;
     text-align: center;
     color:black;
 }
@@ -728,9 +734,22 @@ input:focus{
 .div_hromb{
     width: 100%;
     display: flex;
+    margin-bottom: 15px;
 }
 .div_hromb:nth-child(2){
     justify-content: flex-end;
+}
+.div_win_text{
+    display: flex; 
+    flex-direction: column; 
+    align-items:center;
+    margin: 0px;
+    width: 70%;
+    margin-left: 100px;
+    justify-content: center;
+}
+.div_win_text:nth-child(1){
+    margin-right: 80px;
 }
 .BUTT{
     width: 300px;
@@ -741,6 +760,31 @@ input:focus{
     margin: 10px 0px 5px 20px;
 }
 @media(max-width: 1440px){
+    .h1_block{
+        font-size: 26px;
+    }
+    .block_h1{
+        font-size: 26px;
+    }
+    .img_win{
+        width: 220px;
+        height: 220px;
+    }
+    .div_hromb_img{
+        width: 200px;
+        height: 200px;
+    }
+    .div_win_text{
+        margin-left: 60px;
+    }
+    .div_win_text:nth-child(1){
+        margin-right: 60px;
+    }
+    .text_win{
+        font-size: 38px;
+        text-align: center;
+        color:black;
+    }
     .img_fith{
         width: 350px;
         height: 350px;
@@ -764,10 +808,9 @@ input:focus{
     }
     .container{
         width: 1140px;
-        border: 1px solid orange;
     }
     .white_text{
-        color: white;
+        color: #3A3A39;
         font-size: 40px;
     }
     .red_text{
@@ -816,7 +859,7 @@ input:focus{
     }
     #sec2_line_p{
         width: 900px;
-        font-size: 24px;
+        font-size: 28px;
     }
     .block_img{
         margin: 15px;
@@ -862,7 +905,7 @@ input:focus{
         height: 980px;
     }
     .form_form{
-        height: 980px;
+        height: 850px;
     }
     .list_o{
         width: 300px;
@@ -1005,7 +1048,7 @@ input:focus{
         font-size: 19px;
     }
     #ft{
-        margin-left: 10px;
+        margin-left: 19px;
     }
     #sp{
         margin: 10px 0px 0px 10px;
@@ -1131,13 +1174,11 @@ input:focus{
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 530px;
+        margin: 0 auto;
     }
     .white_text{
         margin: 0px;
-    }
-    .firstBlock_text__name{
-        width: 530px;
-        margin: 0 auto;
     }
     .firstBlock_text__buttons{
         margin-left: 0px !important;
