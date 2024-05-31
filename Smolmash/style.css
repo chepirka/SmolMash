@@ -447,7 +447,7 @@ a{
     font-size: 24px;
 }
 .block_img{
-    width: 100px;
+    width: 100px;block_h1
     height: 100px;
     margin: 20px;
 }
@@ -456,7 +456,7 @@ a{
     text-align: center;
     display: flex;
     align-items: center;
-    color: #3A3A39;
+    color: #D71921;
     font-size: 30px;
 }
 /*конец третьей секции*/
@@ -726,7 +726,7 @@ input:focus{
     margin-top: 25px;
 }
 .h1_block{
-    color: #3A3A39;
+    color: #D71921;
     font-size: 30px;
 }
 
