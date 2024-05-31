@@ -181,7 +181,7 @@ a{
 #discription{
     width: 100%;
     height: 1080px;
-    background-color: rgba(58, 58, 57);
+    background-color:white;
     display: flex;
     justify-content: center;
     position: relative;
@@ -196,10 +196,9 @@ a{
 }
 .hromb{
     d: path("M 175 0 L 350 175 L 175 350 L 0 175 L 175 0 Z");
-    fill-opacity:0.24;
 }
 #black_hromb{
-    fill:black;
+    fill:rgb(58, 58, 57);
 }
 #gray_hromb{
     fill:#E6E7E8;
