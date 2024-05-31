@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./pictures/icon_roborabbit.png"/>
+    <title>Фабрика инженерных талантов</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo_smolMash"><a href="https://smolmash.ru/"><img id="logo_smolmash" src="./pictures/маш_logow.png" alt=""></a>
+        </div>
+        <nav id="navbar">
+            <div id="hamburger-icon" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-links">
+                <li><a href="#discription" onclick="toggleMenu()">Описание</a></li>
+                <li><a href="#themes" onclick="toggleMenu()">Темы конкурса</a></li>
+                <li><a href="#events" onclick="toggleMenu()">Этапы проведения</a></li>
+                <li><a href="#presents" onclick="toggleMenu()">Участники и призы</a></li>
+                <li><a href="#organisators" onclick="toggleMenu()">Организаторы и спонсоры</a></li>
+                <li><a href="#form" onclick="toggleMenu()">Регистрация</a></li>
+                <li><a href="#" onclick="toggleMenu()"><div style="width: 50px; height: 50px;"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve"><g><g id="cross"><g><polygon points="612,36.004 576.521,0.603 306,270.608 35.478,0.603 0,36.004 270.522,306.011 0,575.997 35.478,611.397 306,341.411 576.521,611.397 612,575.997 341.459,306.011 " fill="#000000" style="fill: rgb(255, 255, 255);"></polygon></g></g></g></svg></div></a></li>
+            </ul>
+        </nav>
+        <div id="navigation">
+            <a href="#discription"><div class="navigation_block bdis">Описание</div></a>
+            <a href="#themes"><div class="navigation_block">Темы конкурса</div></a>
+            <a href="#events"><div class="navigation_block">Этапы проведения</div></a>
+            <a href="#presents"><div class="navigation_block">Участники и призы</div></a>
+            <a href="#organisators"><div class="navigation_block">Организаторы и спонсоры</div></a>
+            <a href="#form"><div class="navigation_block breg">Регистрация</div></a>
+        </div>
+        <div class="logo_roborabbit">
+            <a href="https://roborabbit.ru/"><img id="logo_rr" src="./pictures/Group.png" alt=""></a>  
+        </div>
+    </header>
+    <section id="main_sec">
+        <section class="firstBlock" name="top">
+            <div class="bg"></div>
+            <div class="container" id="cont1">
+                <div style="display: flex;">
+                    <!-- <div class="firstBlock_picture">
+                        <svg class="firstBlock_picture__pic" viewBox="0 0 115 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M63.3528 0.16716C63.2754 0.303436 62.4757 1.95834 61.5727 3.82741C60.644 5.69646 59.741 7.56552 59.5604 7.95491C59.3798 8.36377 59.1734 8.69475 59.0702 8.69475C58.9928 8.67528 57.4449 7.27348 55.5874 5.57965C53.7557 3.86633 52.1304 2.50348 51.9756 2.52295C51.8466 2.56189 51.666 2.85393 51.5628 3.16544C51.4596 3.47696 49.9375 7.56552 48.1316 12.2577C46.3514 16.9498 44.8809 20.9021 44.8809 21.0384C44.8809 21.1746 49.7053 27.3464 55.5874 34.7448C61.4695 42.1627 66.2939 48.2955 66.2939 48.3734C66.2939 48.4513 65.3651 49.4831 64.23 50.6513C63.0948 51.8195 62.1661 52.8513 62.1661 52.9292C62.1661 53.0655 67.429 65.5843 67.7386 66.2074C67.8418 66.402 67.558 66.5189 66.7583 66.6162C66.1391 66.6746 64.7718 66.8498 63.714 67.0056C62.6563 67.1614 58.5801 67.687 54.6845 68.1932L47.5898 69.1083L44.3649 70.4322L41.1401 71.7367L40.6499 70.9384C40.3919 70.4906 39.4374 68.7773 38.5344 67.1614L36.9091 64.1825L38.8956 63.1312C39.9792 62.5471 41.1401 61.9241 41.4497 61.7489C41.8883 61.5347 41.9915 61.3205 41.8883 60.9117C41.7593 60.3276 40.3919 51.2743 39.9534 48.0229C39.7986 46.8937 39.5406 45.8034 39.36 45.5893C39.1536 45.3556 37.4767 44.7521 34.9226 43.9928C32.6781 43.3308 28.7825 42.1821 26.3058 41.4423C23.4937 40.6051 21.6878 40.1573 21.5072 40.2741C21.3524 40.352 21.1461 40.8582 21.0687 41.3644C20.7591 43.545 19.2627 50.8655 19.0822 51.0018C18.979 51.0991 17.173 50.8071 15.0575 50.3593C12.942 49.9309 9.51081 49.2106 7.39531 48.7822C5.30561 48.3344 3.4481 48.0229 3.26751 48.0813C3.03532 48.1398 2.90632 48.607 2.85473 49.5221C2.82893 50.2424 2.64834 53.1239 2.41615 55.8886C2.05496 60.6975 2.05496 60.9701 2.49354 61.2816C3.03532 61.6515 21.8684 70.2181 22.1522 70.2181C22.2812 70.2181 23.3647 69.8676 24.6031 69.4393C25.8156 69.0109 26.8734 68.6605 26.925 68.6605C27.1572 68.6605 30.5884 76.0199 30.4078 76.1367C30.3562 76.1562 26.9508 77.5775 22.823 79.2519C18.721 80.9457 15.1865 82.4448 14.9801 82.5811C14.6964 82.7953 14.748 83.0679 15.3155 84.3723C15.6767 85.2095 15.9863 85.9493 15.9863 86.0272C15.9863 86.144 13.8708 87.3122 7.21472 90.8556C5.87318 91.576 3.3191 92.9388 1.53899 93.8928C-0.241126 94.8468 -1.96964 95.7619 -2.33083 95.9371L-2.95 96.2486L-1.94385 96.7938C-0.989291 97.2805 3.57709 99.539 20.6301 107.969C24.1903 109.721 27.183 111.298 27.312 111.474C27.441 111.649 28.7051 114.491 30.1756 117.821C31.6204 121.131 32.9619 123.954 33.1167 124.07C33.2715 124.207 36.1867 125.161 39.5922 126.193C42.9976 127.244 48.0026 128.782 50.6856 129.6C53.3945 130.437 58.6575 132.053 62.4241 133.202C66.1907 134.35 71.8664 136.102 75.0655 137.095C78.2645 138.088 80.9476 138.848 81.0508 138.77C81.283 138.614 81.1024 138.108 77.31 128.626C75.6846 124.616 74.3947 121.306 74.4205 121.267C74.4721 121.228 75.6589 120.975 85.2818 119.028L89.4612 118.171L90.4157 120.527C90.9317 121.831 91.8605 124.07 92.4796 125.511C93.0988 126.952 94.492 130.281 95.5755 132.91C98.6456 140.347 98.5682 140.191 98.8519 139.899C98.9809 139.724 99.0325 134.584 98.9293 126.971C98.7487 109.897 98.5682 90.3883 98.4908 79.1934L98.4134 69.965L105.508 67.6676C109.404 66.402 112.757 65.3118 112.938 65.2144C113.196 65.0976 113.428 62.9754 113.893 56.8815L114.512 48.7044L113.815 48.276C113.428 48.0424 111.674 47.0689 109.894 46.1149C103.857 42.9025 98.1554 39.8653 92.2217 36.6723C86.3653 33.5572 86.2363 33.4598 83.5533 31.0262C81.1798 28.8651 80.6122 28.2226 79.4513 26.2561C78.7031 25.0101 77.6712 23.2384 77.1294 22.3233C76.5876 21.4083 75.0655 18.8772 73.7755 16.6772C72.4598 14.4772 70.9635 11.9461 70.4217 11.0311C68.0482 7.0788 64.7718 1.53001 64.4106 0.887527C63.972 0.0892792 63.5076 -0.222229 63.3528 0.16716ZM65.8553 9.60982C66.7841 11.2063 68.719 14.4577 70.1379 16.8524C71.5568 19.2472 72.692 21.1746 72.6404 21.1357C72.4598 20.9799 63.843 13.0754 62.8885 12.1798L61.9081 11.2842L62.8627 8.92839C63.3786 7.62393 63.8946 6.61153 63.9978 6.65047C64.101 6.70888 64.9266 8.03279 65.8553 9.60982ZM59.6378 13.1922C62.9401 16.2099 66.0101 18.9941 66.4229 19.4029C67.5064 20.4348 81.7474 33.4404 82.3407 33.9271C82.8051 34.3165 82.7277 34.3749 75.8394 40.1573C71.9954 43.3503 68.7964 45.9981 68.6674 46.0176C68.5126 46.0565 63.7914 40.1768 51.2532 24.3092L48.4153 20.7463L48.8281 19.7339C49.0603 19.1888 49.8859 16.9692 50.6856 14.8276C52.3626 10.3691 53.4203 7.72128 53.5493 7.72128C53.5751 7.72128 56.3356 10.1939 59.6378 13.1922ZM87.2941 42.7662C89.8998 48.8407 92.7376 55.3434 95.7303 62.1967C96.7364 64.494 97.4846 66.402 97.433 66.4605C97.3556 66.5189 91.4477 66.4799 84.3272 66.402L71.3505 66.2268L69.7509 62.5276C68.8738 60.4834 67.6354 57.5824 66.9905 56.0638L65.8295 53.2991L68.4094 50.6318C71.1957 47.7309 84.3014 36.5944 84.611 36.867C84.7142 36.9448 85.9268 39.6122 87.2941 42.7662ZM96.3495 41.9874C98.8003 43.2919 107.649 48.0229 109.584 49.0743C110.797 49.7362 110.926 49.892 110.926 50.515C110.9 51.9947 109.971 63.4038 109.868 63.4622C109.61 63.5985 101.251 66.2658 101.174 66.2268C101.071 66.1489 99.1099 61.7489 94.6725 51.5274C92.3764 46.2318 90.1062 41.0334 89.616 39.9821C89.1258 38.9113 88.7388 38.0157 88.7388 37.9767C88.7388 37.9378 89.9772 38.5803 91.5251 39.398C93.0472 40.2157 95.2143 41.3839 96.3495 41.9874ZM31.7493 45.8034L36.3157 47.1273L36.5995 48.8017C36.8833 50.4956 37.8121 56.6089 38.07 58.5364C38.1474 59.1205 38.2506 59.7435 38.328 59.9187C38.4054 60.1524 37.5025 60.7365 35.0258 62.0604C33.1425 63.0533 31.1044 64.1631 30.4852 64.5135C29.866 64.864 29.2469 65.156 29.1179 65.156C28.9889 65.156 27.4668 65.6427 25.764 66.2268C24.0613 66.8109 22.5392 67.2976 22.3586 67.2976C22.2038 67.2976 18.3598 65.6233 13.845 63.5595L5.61519 59.8214L5.79578 56.5895C5.89898 54.8178 6.05377 52.8903 6.15697 52.2867L6.31176 51.2159L10.3106 52.0531C18.3082 53.7275 21.3782 54.3116 21.7136 54.2142C21.9458 54.1363 22.3586 52.462 23.0552 48.9769C23.5969 46.1539 24.0871 43.7786 24.1387 43.7007C24.1903 43.6423 24.9127 43.7786 25.7382 44.0317C26.538 44.2653 29.2469 45.0636 31.7493 45.8034ZM35.6708 68.6021C37.7089 72.4181 37.9926 72.9438 37.8895 73.0216C37.6057 73.1969 33.6585 74.8518 33.5811 74.7934C33.4521 74.696 30.4336 68.018 30.4336 67.8038C30.4594 67.6286 33.6069 66.0127 34.0712 65.9543C34.1486 65.9348 34.871 67.1419 35.6708 68.6021ZM69.9315 71.503C70.4991 72.8854 71.66 75.6305 72.4856 77.6164C73.3112 79.6023 74.7043 82.9316 75.5557 85.0148C76.4328 87.098 77.7227 90.1742 78.3935 91.8291C79.0901 93.484 80.6122 97.1248 81.7732 99.9089C84.1724 105.652 86.6749 111.61 87.6553 113.966C88.0165 114.861 88.2486 115.64 88.1712 115.699C88.0681 115.757 85.8752 116.244 83.2695 116.769C80.6896 117.295 77.5164 117.938 76.2264 118.21C74.9623 118.483 73.7755 118.697 73.6207 118.697C73.466 118.697 73.0274 117.879 72.6146 116.886C72.2276 115.913 71.2989 113.557 70.5249 111.688C69.7767 109.819 68.8738 107.541 68.5126 106.626C67.9192 105.068 66.1907 100.688 64.488 96.5017C64.0752 95.4893 63.5334 94.0875 63.2496 93.3866C62.9659 92.6857 62.6305 92.1211 62.5273 92.1211C61.6243 92.1601 60.0764 92.491 59.8442 92.7247C59.5346 92.9972 59.87 94.0097 61.9081 98.9354C62.3209 99.8894 63.0433 101.739 63.5334 103.024C64.0494 104.309 65.2104 107.288 66.1649 109.644C67.1195 111.999 68.3578 115.114 68.9254 116.555C69.4929 117.996 70.2927 119.962 70.6797 120.936C71.0925 121.89 71.9438 124.051 72.5888 125.706C73.2338 127.361 74.2915 130.028 74.9107 131.625C75.5557 133.24 76.0458 134.564 76.02 134.584C75.9942 134.603 74.2915 134.097 72.2276 133.455C70.1637 132.832 66.1133 131.566 63.198 130.671C60.2828 129.794 55.123 128.198 51.7176 127.147C48.3122 126.115 43.333 124.577 40.6499 123.759L35.774 122.26L27.4152 103.491C22.8488 93.1725 18.979 84.5281 18.8242 84.2944C18.592 83.8856 18.6952 83.8077 19.9335 83.3404C20.6559 83.0484 23.081 82.0749 25.2739 81.1599C30.2272 79.1156 42.5848 74.0146 45.9645 72.6517C48.3122 71.6783 48.7507 71.5809 52.4142 71.1136C54.5813 70.8216 57.7029 70.4127 59.3282 70.1986C66.7067 69.2056 68.7448 68.9331 68.8222 68.972C68.8738 68.9915 69.364 70.1402 69.9315 71.503ZM85.7462 69.4393C90.6737 69.634 94.7499 69.8287 94.8015 69.8676C94.9047 69.9455 95.1627 88.3441 95.3175 107.599L95.4465 123.662L94.5693 121.715C94.0792 120.644 92.0927 115.991 90.1836 111.396C88.2744 106.782 85.0238 98.9938 82.9599 94.0681C77.9291 81.997 72.7694 69.6145 72.5888 69.1862C72.4598 68.8552 72.5888 68.8357 74.6011 68.9525C75.762 69.0109 80.7928 69.2251 85.7462 69.4393ZM17.2762 88.7529C17.2762 88.7919 19.1337 92.9583 21.3782 98.0009C23.6485 103.063 25.4286 107.21 25.3771 107.21C25.3255 107.21 21.3524 105.263 16.5797 102.907C11.7811 100.532 6.77614 98.0593 5.4604 97.4168C4.14466 96.7743 3.13851 96.2097 3.21591 96.1513C3.57709 95.8592 16.9151 88.7335 17.0956 88.7335C17.1988 88.714 17.2762 88.7335 17.2762 88.7529Z" fill="white"/>
+                            </svg>                        
+                    </div> -->
+                    <div class="firstBlock_text">
+                        <h1 class="firstBlock_text__name"><span class="white_text">Фабрика инженерных </span><span class="red_text">талантов</span></h1>
+                        <h2 class="firstBlock_text__date">1 июня - 13 октября 2024 года</h2>
+                        <p class="firstBlock_text__info">Завод «Смолмаш» совместно с Roborabbit при информационной поддержке СОГБУ "Смоленскавтодор"
+                            приглашает учащихся 4-9 классов школ города Смоленска и Смоленской области принять участие в конкурсе по созданию игры на тему «Уборочная техника и уборка города». Мы предлагаем молодым разработчикам использовать свой творческий потенциал для создания инновационных и образовательных игр, с использованием любых современных игровых движков и платформ. </p>
+                        <div class="firstBlock_text__buttons">
+                            <a href="#events" style="text-decoration: none;"><div class="button"><p class="ji">Этапы проведения</p></div></a>
+                            <a href="#form" style="text-decoration: none;"><div class="button"><p class="ji">Регистрация открыта</p></div></a>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <img class="pic" src="./pictures/kids1.jpg" alt=""> -->
+        </section>
+        <section id="discription">
+            <svg class="svg_hromb" id="r1"> 
+                <path class="hromb" id="black_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r2">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M350 175L175 0L0 175L175 350L350 175ZM340 175L175 10L10 175L175 340L340 175Z" fill="rgb(58, 58, 57)"/>
+            </svg>
+            <svg class="svg_hromb" id="r3">
+                <path class="hromb" id="gray_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r4">
+                <path class="hromb" id="black_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r5">
+                <path class="hromb" id="black_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r6">
+                <path class="hromb" id="gray_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r7">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M350 175L175 0L0 175L175 350L350 175ZM340 175L175 10L10 175L175 340L340 175Z" fill="rgb(58, 58, 57)"/>
+            </svg>
+            <svg class="svg_hromb" id="r8">
+                <path class="hromb" id="black_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r9">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M350 175L175 0L0 175L175 350L350 175ZM340 175L175 10L10 175L175 340L340 175Z" fill="rgb(58, 58, 57)"/>
+            </svg>
+            <svg class="svg_hromb" id="r10">
+                <path class="hromb" id="red_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r11">
+                <path class="hromb" id="red_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r12">
+                <path class="hromb" id="red_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r13">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M350 175L175 0L0 175L175 350L350 175ZM340 175L175 10L10 175L175 340L340 175Z" fill="rgb(58, 58, 57)"/>
+            </svg>
+            <svg class="svg_hromb" id="r14">
+                <path class="hromb" id="black_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r15">
+                <path class="hromb" id="gray_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r16">
+                <path class="hromb" id="black_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r17">
+                <path class="hromb" id="black_hromb"/>
+            </svg>
+            <section class="container">
+                <div class="sec2_line">
+                    <p class="white_text" id="sec2_line_p">
+                        В современном мире, где окружающая среда и чистота городов становятся 
+                        все более актуальными вопросами, "СмолМаш Кидс" предлагает молодым 
+                        разработчикам использовать свой творческий потенциал для создания 
+                        инновационных и образовательных игр. 
+                    </p>
+                </div>
+                <div class="sec2_line">
+                    <p class="white_text" id="sec2_line_p">
+                        Мы приглашаем вас в увлекательное 
+                        путешествие, где уборочная техника становится инструментом перемен, а 
+                        уборка города – приключением, полным вдохновения и важных уроков.
+                    </p>
+                </div>
+            </section>
+        </section>
+        <section class="thirdBlock" id="themes">
+            <div class="container">
+                <h1 class="thirdBlock_text" style="margin-top: 30px;"><span class="red_text">Темы</span>&#8239;&#8239;&#8239;<span class="white_text">конкурса:</span> </h1>
+                <div class="thirdBlock_info">
+                    <div class="one">                
+                        <div class="one_block">
+                            <div style="display: flex;">
+                                <div class="one_text">
+                                    <h1 class="block_h1" id="ft">Вдохновение от реальных технологий</h1>
+                                </div>
+                                <img class="block_img" src="./pictures/block1.png" alt="">
+                            </div>
+                            <p class="block_text">Участники могут вдохновляться существующими или концептуальными технологиями в области уборочной техники.</p>
+                        </div>
+                        <div class="one_block">          
+                            <div id="dks" style="display: flex;">
+                                <img class="block_img" id="sp" src="./pictures/block2.png" alt="">
+                                <div class="one_text"><h1 class="block_h1">Инновации в уборочной технике</h1>
+                            </div>
+                            </div>
+                            <p style="margin-top: 20px;" class="block_text"> Поощряется внедрение в игры инновационных решений в области уборочной техники.</p>
+                        </div>
+                    </div>
+                    <div class="two">               
+                        <div class="two_block">
+                            <div class="two_block_head"><img class="block_img" src="./pictures/block3.png" alt="">
+                                <h1 class="h1_block">Обучение и развитие</h1>
+                                </div>
+                            <div class="two_block_body"><p class="block_text two__block_text">Игры могут также фокусироваться на развитии города 
+                                после уборочных мероприятий.</p></div>
+                        </div>
+                        <div class="two_block">
+                            <div class="two_block_head"><img class="block_img" src="./pictures/block4.png" alt="">
+                                <h1 class="h1_block">Экологическая ответственность</h1>
+                                </div>
+                            <div class="two_block_body"><p class="block_text two__block_text">Тема также подчеркивает важность 
+                                экологической ответственности и устойчивого подхода к уборке городов. </p></div>
+                        </div>
+                        <div class="two_block">
+                            <div class="two_block_head"><img class="block_img" src="./pictures/block5.png" alt="">
+                                <h1 class="h1_block">Развитие города</h1>
+                                </div>
+                            <div class="two_block_body"><p class="block_text two__block_text">Игры могут также фокусироваться на развитии города 
+                                после уборочных мероприятий.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="events">
+            <section id="sec4_z">
+                <svg class="svg_hromb" id="r18"> 
+                    <path d="M 15 190 L 335 190 L 175 350 L 15 190Z" fill="rgb(58, 58, 57)"/>
+                </svg>
+                <svg class="svg_hromb" id="r19"> 
+                    <path d="M 15 190 L 335 190 L 175 350 L 15 190Z" fill="rgb(58, 58, 57)"/>
+                </svg>
+                <svg class="svg_hromb" id="r20">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M350 175L175 0L0 175L175 350L350 175ZM340 175L175 10L10 175L175 340L340 175Z" fill="rgb(58, 58, 57)"/>
+                </svg>
+                <svg class="svg_hromb" id="r21">
+                    <path class="hromb" id="red_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r22">
+                    <path class="hromb" id="black_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r23">
+                    <path class="hromb" id="gray_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r24">
+                    <path class="hromb" id="black_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r25">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M350 175L175 0L0 175L175 350L350 175ZM340 175L175 10L10 175L175 340L340 175Z" fill="rgb(58, 58, 57)"/>
+                </svg>
+                <svg class="svg_hromb" id="r26">
+                    <path class="hromb" id="black_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r27">
+                    <path class="hromb" id="red_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r28">
+                    <path class="hromb" id="gray_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r29">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M350 175L175 0L0 175L175 350L350 175ZM340 175L175 10L10 175L175 340L340 175Z" fill="rgb(58, 58, 57)"/>
+                </svg>
+                <svg class="svg_hromb" id="r30">
+                    <path class="hromb" id="black_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r31">
+                    <path class="hromb" id="red_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r32">
+                    <path class="hromb" id="black_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r33">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M350 175L175 0L0 175L175 350L350 175ZM340 175L175 10L10 175L175 340L340 175Z" fill="rgb(58, 58, 57)"/>
+                </svg>
+                <svg class="svg_hromb" id="r34">
+                    <path class="hromb" id="black_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r35">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M350 175L175 0L0 175L175 350L350 175ZM340 175L175 10L10 175L175 340L340 175Z" fill="rgb(58, 58, 57)"/>
+                </svg>
+                <svg class="svg_hromb" id="r36">
+                    <path class="hromb" id="black_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r37">
+                    <path class="hromb" id="gray_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r38">
+                    <path class="hromb" id="black_hromb"/>
+                </svg>
+                <svg class="svg_hromb" id="r39">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M350 175L175 0L0 175L175 350L350 175ZM340 175L175 10L10 175L175 340L340 175Z" fill="rgb(58, 58, 57)"/>
+                </svg>
+                <svg class="svg_hromb" id="r40">
+                    <path class="hromb" id="red_hromb"/>
+                </svg>
+                <section class="container" id="sec4_flex">
+                    <h1 class="thirdBlock_text" id="sec4_h_w"><span class="white_text">Этапы</span>&#8239;&#8239;&#8239;<span class="red_text">проведения:</span></h1>
+                    <section id="sec4_plan">
+                        <div class="circys"></div>
+                        <div class="sec4_line"></div>
+                        <div class="circys"></div>
+                        <div class="sec4_line"></div>
+                        <div class="circys"></div>
+                        <div class="sec4_line"></div>
+                        <div class="circys"></div>
+                        
+                    </section>
+                    <section id="sec4_plan_txt">
+                        <p class="white_text" id="plan_txt">Регистрация с х месяца по х месяца</p>
+                        <p class="white_text" id="plan_txt">Подача заявок до x месяца</p>
+                        <p class="white_text" id="plan_txt">Оценка жюри с х месяца по х месяца</p>
+                        <p class="white_text" id="plan_txt">Объявление победителей х месяца</p>
+                    </section>
+                    
+                </section>
+            </section>
+            
+        </section>
+        <section class="fithBlock" id="presents">
+            <div class="container" id="cont1">
+                <h1 class="thirdBlock_text" style="margin: 0px;" id="sec4_h_w"><span class="red_text">Перечень</span>&#8239;&#8239;&#8239;<span class="white_text">призов:</span></h1>
+                <div id="pagb" style="padding-bottom: 100px;">
+                        <div class="div_hromb">
+                            <div class="div_hromb_img">
+                                <img src="./pictures/iPad.png" class="img_win" alt="" />
+                            </div>
+                            <div style="display: flex; flex-direction: column; align-items:center;margin: 0px;width: 70%;margin-left: 100px;justify-content: center;">
+                                <p class="text_win" style="font-size: 50px;"><b>I место:</b> iPad Pro 11 2022 256GB</span>
+                                <p class="block_text">Планшет Apple iPad Pro 11 2022 — модель с рубленными гранями и закругленными углами, выполнена в корпусе из алюминия. Цвет оформления — серый. 11-дюймовый экран типа Liquid Retina. Разрешение 1668х2388 пикселей.</p>
+                            </div>
+                        </div>
+                        <div class="div_hromb">
+                            <div style="display: flex; flex-direction: column; align-items:center;margin: 0px;width: 70%;margin-right: 80px;justify-content: center;">
+                                <p class="text_win" style="font-size: 50px;"><b>II место:</b> Ноутбук MAIBENBEN X556</p>
+                                <p class="block_text">Ноутбук MAIBENBEN X556 имеет дискретную видеокарту GeForce RTX 3050 с TDP 75Вт, ОЗУ DDR4 3200МГц 16ГБ, процессор AMD Ryzen 5 5600H на 6 ядер и 12 потоков с базовой частотой 3.2МГц, при нагрузке автоматическое увеличение частоты до 4.2МГц. Частота обновления экрана в 144Гц, тип матрицы IPS. Накопитель ноутбука представлен в виде M.2 SSD диска объемом 512ГБ.</p>
+                            </div>
+                            <div class="div_hromb_img">
+                                <img src="./pictures/Notebook.png" class="img_win" alt="" />
+                            </div>
+                        </div>
+                        <div class="div_hromb">
+                            <div class="div_hromb_img">
+                                <img src="./pictures/VR.png" class="img_win" alt="" />
+                            </div>
+                            <div style="display: flex; flex-direction: column; align-items:center;margin: 0px;width: 70%;margin-left: 100px;justify-content: center;">
+                                <p class="text_win" style="font-size: 50px;"><b>III место:</b> VR-шлем Pico 4 128 GB</p>
+                                <p class="block_text">Шлем виртуальной реальности Pico 4 128 GB можно подключать к ПК или использовать как самостоятельное устройство. В модели два экрана типа LCD диагональю 2,56 дюйма разрешением 4320х2160 пикселей и плотностью 1200 ppi, частота экранов 90 Гц. Угол обзора 105°, что гарантирует эффект полного погружения. За производительность отвечает процессор Snapdragon XR2 от Qualcomm на 8 ядер с тактовой частотой 2,84ГГц.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="gifts">
+                        <h1 class="white_text">Призы:</h1>
+                        <div class="line_r"></div>
+                        <ul class="list">
+                            <li class="list_o hui">I место:</li>
+                            <p style="color: 3A3A39; font-size: 24px;">iPad Pro 11 2022 256GB</p>
+                            <li class="list_o hui">II место:</li>
+                            <p style="color: 3A3A39; font-size: 24px;">Ноутбук MAIBENBEN X556</p>
+                            <li class="list_o hui">III место:</li>
+                            <p style="color: 3A3A39; font-size: 24px;">VR-шлем Pico 4 128 GB</p>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <section id="organisators">
+            <svg class="svg_hromb" id="r18"> 
+                <path d="M 15 190 L 335 190 L 175 350 L 15 190Z" fill="#E6E7E8"/>
+            </svg>
+            <svg class="svg_hromb" id="r19"> 
+                <path d="M 15 190 L 335 190 L 175 350 L 15 190Z" fill="rgb(58, 58, 57)"/>
+            </svg>
+            <svg class="svg_hromb" id="r20">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M350 175L175 0L0 175L175 350L350 175ZM340 175L175 10L10 175L175 340L340 175Z" fill="rgb(58, 58, 57)"/>
+            </svg>
+            <svg class="svg_hromb" id="r21">
+                <path class="hromb" id="red_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r22">
+                <path class="hromb" id="black_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r24">
+                <path class="hromb" id="gray_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r35">
+                <path class="hromb" id="red_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r36">
+                <path class="hromb" id="black_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r37">
+                <path class="hromb" id="gray_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r38">
+                <path class="hromb" id="black_hromb"/>
+            </svg>
+            <svg class="svg_hromb" id="r39">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M350 175L175 0L0 175L175 350L350 175ZM340 175L175 10L10 175L175 340L340 175Z" fill="rgb(58, 58, 57)"/>
+            </svg>
+            <svg class="svg_hromb" id="r40">
+                <path class="hromb" id="red_hromb"/>
+            </svg>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img src="./pictures/маш_logob2.png" class="img_rr" id="img_mash" alt="" />
+                            <p class="text_slide">Генеральный<br>спонсор</p>
+                        </div>
+                        <div class="slide">
+                            <img src="./pictures/rr_logo.jpg" class="img_rr" alt="" />
+                            <p class="text_slide">Организатор</p>
+                        </div>
+                        <div class="slide">
+                            <img src="./pictures/smolavto_logo3.png" class="img_rr" alt="" />
+                            <p class="text_slide">Спонсор</p>
+                    </div> 
+                    </div>
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img src="./pictures/маш_logob2.png" class="img_rr" id="img_mash" alt="" />
+                            <p class="text_slide">Генеральный<br>спонсор</p>
+                        </div>
+                        <div class="slide">
+                            <img src="./pictures/rr_logo.jpg" class="img_rr" alt="" />
+                            <p class="text_slide">Организатор</p>
+                        </div>
+                        <div class="slide">
+                            <img src="./pictures/smolavto_logo3.png" class="img_rr" alt="" />
+                            <p class="text_slide">Спонсор</p>
+                        </div>
+                    </div>
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img src="./pictures/маш_logob2.png" class="img_rr" id="img_mash" alt="" />
+                            <p class="text_slide">Генеральный<br>спонсор</p>
+                        </div>
+                        <div class="slide">
+                            <img src="./pictures/rr_logo.jpg" class="img_rr" alt="" />
+                            <p class="text_slide">Организатор</p>
+                        </div>
+                        <div class="slide">
+                            <img src="./pictures/smolavto_logo3.png" class="img_rr" alt="" />
+                            <p class="text_slide">Спонсор</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form" name="form" id="form">
+                <div>
+                    <h1 class="white_text" style="text-align: center; margin-top: 30px; color: red;">Регистрация</h1>
+                </div>
+                <form class="form_form" action="action.php" method="post">
+                    <div id="div_form">
+                        <div class="forma">
+                            <label for="name">Введите ФИО ребенка</label>
+                            <input type="name" name="name" id="name">
+                        </div>
+                        <div class="forma">
+                            <label for="phone">Введите номер телефона</label>
+                            <input type="phone" name="phone" id="phone">
+                        </div>
+                        <div class="forma">
+                            <label for="email">Введите email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="forma">
+                            <label for="city">Введите свой город</label>
+                            <input type="city" name="city" id="city">
+                        </div>
+                        <div class="forma">
+                            <label for="school">Введите школу</label>
+                            <input type="school" name="school" id="school">
+                        </div>
+                        <div class="forma">
+                            <label for="class">Введите класс</label>
+                            <input type="class" name="class" id="class">
+                        </div>
+                        <div style="margin-top: 20px;">
+                            <button class="button BUTT" type="submit"><p style="color: white; font-size: 26px;">Отправить заявку</p></button>
+                        </div>
+                    </div>
+                    <!-- <img src="./pictures/Young_man_came_up_wi.png" alt=""> -->
+                </form>
+        </section>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+</html>
