@@ -495,6 +495,7 @@ a{
     align-items: start;
 }
 #sec4_plan_txt{
+    margin-right: 0px;
     width: 750px;
     height: 75%;
     display: flex;
@@ -695,7 +696,6 @@ input:focus{
 }
 .bg{
     width: 50vw;
-    height: 100%;
     background: url("./pictures/firstBlock_bg.png") center center / cover no-repeat;
     margin-top: 25px;
 }
@@ -735,6 +735,7 @@ input:focus{
     width: 100%;
     display: flex;
     margin-bottom: 15px;
+    align-items:center;
 }
 .div_hromb:nth-child(2){
     justify-content: flex-end;
@@ -840,6 +841,8 @@ input:focus{
     }
     .firstBlock_text__info{
         font-size: 22px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .firstBlock_text__buttons{
         margin-left: 100px;
@@ -912,9 +915,11 @@ input:focus{
     }
 }
 @media(max-width: 1200px){
+    .text_win {
+        font-size: 30px;
+    }
     .container{
         width: 960px;
-        border: 2px solid green;
     }
     .header{
         height: 100px;
@@ -979,9 +984,18 @@ input:focus{
     }
 }
 @media(max-width: 992px){
+    .text_win {
+        font-size: 26px;
+    }
+    .div_hromb_img {
+        width: 160px;
+        height: 160px;
+    }
+    #div_form {
+        position:static;
+    }
     .container{
         width: 760px;
-        border: 2px solid brown;
     }
     .header{
         height: 100px;
@@ -1019,7 +1033,9 @@ input:focus{
     }
     .firstBlock_text__info{
         margin-top: 10px;
-        font-size: 27px;
+        font-size: 26px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .firstBlock_picture{
         width: 0px;
@@ -1060,11 +1076,12 @@ input:focus{
         margin-left: 10px;
     }
     #plan_txt{
-        width: 500px;
+        width: 700px;
     }
     #sec4_plan_txt{
         height: 68%;
         margin-top: 10px;
+        width: 600px;
     }
     #pagb{
         display: flex;
@@ -1074,6 +1091,7 @@ input:focus{
         width: 40px;
         height: 40px;
         overflow: visible;
+        padding-left: 100px;
     }
     #navigation{
         width: 0px;
@@ -1146,7 +1164,6 @@ input:focus{
     }
     .container{
         width: 540px;
-        border: 2px solid black;
     }
     .firstBlock{
         height: auto;
@@ -1181,9 +1198,8 @@ input:focus{
         margin: 0px;
     }
     .firstBlock_text__buttons{
-        margin-left: 0px !important;
-        margin-top: 20px !important;
-        margin: 0 auto;
+        margin-left: 20px;
+        margin-top: 10px;
     }
     .button{
         height: 70px;
@@ -1198,6 +1214,7 @@ input:focus{
         align-items: center;
         justify-content: center;
         text-align: center;
+        top: 550px;
     }
     #sec2_line_p{
         width: 500px;
@@ -1247,5 +1264,33 @@ input:focus{
     #dks{
         display: flex;
         flex-direction: row-reverse;
+    }
+    #sec4_plan_txt {
+        height: 68%;
+        margin-top: 0px;
+        width: 400px;
+    }
+    #plan_txt {
+        width: 400px;
+        line-height: 35px;
+    }
+    .img_win {
+        width: 140px;
+        height: 140px;
+    }
+    .div_hromb_img {
+        width: 120px;
+        height: 120px;
+    }   
+    #pagb {
+        height: 90%;
+    }
+    .div_hromb {
+        margin-bottom: 55px;
+        margin-top: 55px;
+    }
+    .div_win_text:nth-child(1) {
+        margin-right: 80px;
+        margin-left: 0px;
     }
 }
