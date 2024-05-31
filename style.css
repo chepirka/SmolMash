@@ -492,7 +492,7 @@ a{
     align-items: start;
 }
 #sec4_plan_txt{
-    width: 600px;
+    width: 750px;
     height: 75%;
     display: flex;
     flex-direction: column;
@@ -565,7 +565,8 @@ a{
    height: 250px;
 }
 #img_mash{
-    width: 520px;
+    width:500px;
+    height: 170px;
 }
 .text_slide{
     color:#3A3A39;
