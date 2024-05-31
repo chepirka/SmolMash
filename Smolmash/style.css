@@ -445,6 +445,8 @@ a{
     text-align: center;
     margin-top: 20px;
     font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .block_img{
     width: 100px;
