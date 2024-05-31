@@ -495,7 +495,7 @@ a{
     height: 75%;
     margin-left: 400px;
     width: 50px;
-    align-items:center;
+    align-items: start;
 }
 #sec4_plan_txt{
     width: 600px;
@@ -519,6 +519,7 @@ a{
     height: 50px;
     line-height: 45px;
     font-size: 32px;
+    color: #3A3A39!important;
 }
 /*конец четвертой секции*/
 /*начало пятой секции*/
