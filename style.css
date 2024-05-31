@@ -1053,7 +1053,7 @@ input:focus{
     }
     #sec2_line_p{
         width: 600px;
-        font-size: 25px;
+        font-size: 26px;
     }
     .block_img{
         width: 70px;
@@ -1292,5 +1292,8 @@ input:focus{
     .div_win_text:nth-child(1) {
         margin-right: 80px;
         margin-left: 0px;
+    }
+    #more_win{
+        font-size: 0px;
     }
 }
