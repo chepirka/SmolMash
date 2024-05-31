@@ -520,6 +520,8 @@ a{
     line-height: 45px;
     font-size: 32px;
     color: #3A3A39!important;
+    margin: 0;
+    margin-left: 30px;
 }
 /*конец четвертой секции*/
 /*начало пятой секции*/
