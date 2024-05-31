@@ -706,26 +706,6 @@ input:focus{
     text-decoration: none;
 }
 
-.img_fith{
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    top: 0px;
-    left: 900px;
-    z-index: -1;
-}
-.img_fith:nth-child(2){
-    width: 620px;
-    height: 620px;
-    top: 450px;
-    left: 150px;
-}
-.img_fith:nth-child(3){
-    width: 450px;
-    height: 450px;
-    top: 0px;
-    left: 400px;
-}
 @font-face {
     font-family: "MarvinVisions-Bold";
     src: url("./fonts/MarvinVisions-Bold.otf");
