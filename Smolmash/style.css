@@ -392,7 +392,7 @@ a{
 /*начало третьей секции*/
 .thirdBlock{
     width: 100%;
-    height: 1080px;
+    height: 980px;
     position: relative;
     background: url("./pictures/events_bg.jpg")center center / cover no-repeat;
     overflow: hidden;
@@ -755,6 +755,10 @@ input:focus{
 }
 .div_hromb:nth-child(2){
     justify-content: flex-end;
+}
+.BUTT{
+    width: 300px;
+    height: 60px;
 }
 /*  
 цвета: 
