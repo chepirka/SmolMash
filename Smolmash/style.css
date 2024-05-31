@@ -630,11 +630,11 @@ a{
 /*начало седьмой секции*/
 #form{
     width: 100vw;
-    background-color:white;
+    background: url("./pictures/young-boy-tablet.jpg") center center / cover no-repeat;
 }
 .form_form{
     width: inherit;
-    height: 1080px;
+    height: 980px;
     margin: 0;
     padding: 0;
     display: flex;
