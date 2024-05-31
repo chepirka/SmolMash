@@ -118,6 +118,7 @@ a{
     display: flex;
     align-items:center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .container{
     width: 1440px;
@@ -726,7 +727,28 @@ input:focus{
         display: flex;
         flex-direction: column;
         width: 100%;
-    }
+}
+.img_win{
+    rotate: -45deg;
+    width: 280px;
+    height: 280px;
+}
+.text_win{
+    font-size: 32px;
+    text-align: center;
+    color:black;
+}
+.div_hromb_img{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 7px solid #3A3A39;
+    width: 250px; 
+    height: 250px;
+    margin: 0px;
+    rotate: 45deg; 
+    overflow: hidden;
+}
 .div_hromb{
     width: 100%;
     display: flex;
