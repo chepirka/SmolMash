@@ -48,7 +48,7 @@ a{
     height: 70px;
 }
 .white_text{
-    color: white;
+    color: #3A3A39;
     font-size: 50px;
 }
 .red_text{
@@ -105,7 +105,6 @@ a{
     height: calc(100vh - 100px);
     /* margin-top: 100px; */
     position: relative;
-    background: url("./pictures/kids1.png")center center / cover no-repeat;
     overflow: hidden;
 }
 .pic{
@@ -142,13 +141,13 @@ a{
     justify-content: center;
 }
 .firstBlock_text__date{
-    color: white;
+    color: #3A3A39;
     margin-top: 15px;
     font-size: 30px;
 }
 .firstBlock_text__info{
     margin-top: 20px;
-    color: white;
+    color: #3A3A39;
     font-size: 24px;
 }
 .firstBlock_text__buttons{
@@ -395,7 +394,7 @@ a{
     width: 100%;
     height: 1080px;
     position: relative;
-    background: url("./pictures/kids2.png")center center / cover no-repeat;
+    background: url("./pictures/events_bg.jpg")center center / cover no-repeat;
     overflow: hidden;
 }
 .thirdBlock_text{
@@ -421,7 +420,7 @@ a{
     width: 35%;
     height: 80%;
     border-radius: 20px;
-    background-color: rgb(58, 58, 57);
+    background-color: rgb(230, 231, 232) ;
     display: flex;
     flex-direction: column;
 }
@@ -434,7 +433,7 @@ a{
     width: 24%;
     height: 80%;
     border-radius: 20px;
-    background-color: rgb(58, 58, 57);
+    background-color: rgb(230, 231, 232);
 }
 .two_block_head{
     font-size: 19px;
@@ -442,7 +441,7 @@ a{
     text-align: center;
 }
 .block_text{
-    color: white;
+    color: #3A3A39;
     text-align: center;
     margin-top: 20px;
     font-size: 24px;
@@ -457,13 +456,14 @@ a{
     text-align: center;
     display: flex;
     align-items: center;
+    color: #3A3A39;
+    font-size: 30px;
 }
 /*конец третьей секции*/
 /*начало четвертой секции*/
 #events{
     width: 100%;
     height: 1080px;
-    background-color: #3A3A39;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -471,8 +471,8 @@ a{
 #sec4_z{
     width: 100%;
     height: 100vh;
-    background-color: #3A3A39;
     position: relative;
+    background-color: #3A3A39;
 }
 #sec4_h_w{
     font-size: 48px;
@@ -494,17 +494,18 @@ a{
     display: flex;
     flex-direction: column;
     height: 75%;
-    margin-left: 100px;
+    margin-left: 400px;
     width: 50px;
     align-items:center;
 }
 #sec4_plan_txt{
-    width: 550px;
+    width: 400px;
     height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 20px;
+    text-align: start;
 }
 .sec4_line{
     width: 5px;
@@ -717,6 +718,16 @@ input:focus{
     src: url("./fonts/MarvinVisions-Bold.otf");
     font-style: normal; 
     font-weight: normal; 
+}
+.bg{
+    width: 50vw;
+    height: 100%;
+    background: url("./pictures/firstBlock_bg.png") center center / cover no-repeat;
+    margin-top: 25px;
+}
+.h1_block{
+    color: #3A3A39;
+    font-size: 30px;
 }
 
 /*  
