@@ -675,6 +675,7 @@ input:focus{
     height: 500px;
     border: 2px solid black;
     border-radius:20px;
+    background-color:white;
 }
 /*конец седьмой секции*/
 
