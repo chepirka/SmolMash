@@ -576,13 +576,13 @@ a{
 }
 .img_rr{
    width: 380px;
-   height: 200px;
+   height: 250px;
 }
 #img_mash{
-    width: 500px;
+    width: 520px;
 }
 .text_slide{
-    color:white;
+    color:#3A3A39;
     font-size: 48px;
     width: 100%;
     text-align: center;
