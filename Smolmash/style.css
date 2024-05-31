@@ -445,6 +445,8 @@ a{
     text-align: center;
     margin-top: 20px;
     font-size: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .block_img{
     width: 100px;
@@ -673,7 +675,7 @@ input:focus{
     justify-content: center;
     width: 700px;
     height: 500px;
-    border: 2px solid black;
+    border: 7px solid #3A3A39;
     border-radius:20px;
     background-color:white;
 }
