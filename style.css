@@ -103,6 +103,7 @@ a{
     height: calc(100vh - 100px);
     position: relative;
     overflow: hidden;
+    background: url("./pictures/firstBlock_bg.png") left bottom / 600px 80% no-repeat;
 }
 .pic{
     position: absolute;
@@ -694,11 +695,11 @@ input:focus{
     font-style: normal; 
     font-weight: normal; 
 }
-.bg{
+/* .bg{
     width: 50vw;
     background: url("./pictures/firstBlock_bg.png") center center / cover no-repeat;
     margin-top: 25px;
-}
+} */
 .h1_block{
     color: #D71921;
     font-size: 30px;
@@ -820,6 +821,8 @@ input:focus{
     }
     .firstBlock{
         height: 980px;
+        background-position: -30% bottom;
+        background-size: 650px 800px !important;
     }
     .firstBlock_picture{
         width: 400px;
@@ -1167,9 +1170,12 @@ input:focus{
     }
     .firstBlock{
         height: auto;
+        background-size: 600px 90%;
+        background-position: -100px -100px;
     }
     .firstBlock_text{
-        margin-top: 15px;
+        margin-top: 700px;
+        padding: 15px;
     }
     .firstBlock_text__info{
         width: 530px;
