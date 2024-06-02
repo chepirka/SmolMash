@@ -1128,12 +1128,12 @@ input:focus{
         width: 40px;
         height: 40px;
         overflow: visible;
-        padding-left: 100px;
     }
     #navigation{
         width: 0px;
         height: 0px;
         overflow: hidden;
+        position: absolute;
     }
     #hamburger-icon {
         display: block;
