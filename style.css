@@ -58,11 +58,62 @@ a{
     color: black;
     font-size: 52px;
 }
+.black_text{
+    color: white;
+    font-size: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .red_text{
     color: rgb(255, 25, 33);
     font-size: 52px;
 }
-
+.foot_text__name{
+    text-align: center;
+    width: 100%;
+}
+.foot_txt{
+    color:white;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.footer{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    align-items:center;
+    background-color: rgb(58, 58, 57);
+}
+div .foot_ic{
+    margin: 15px;
+}
+.foot_ic{
+    fill: #fff;
+    transition: all .5s;
+    width: 60px;
+    height: 60px;
+    display: flex;
+}
+.foot_ic path{
+    fill: #fff;
+}
+#foot_titl{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#foot_info{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .header{
     width: 100vw;
     height: 100px;
@@ -796,6 +847,12 @@ input:focus{
     margin-left: 350px;
 }
 @media(max-width: 1440px){
+    .foot_txt {
+        font-size: 25px;
+    }
+    .black_text{
+        font-size: 40px;
+    }
     .h1_block{
         font-size: 26px;
     }
@@ -1059,6 +1116,7 @@ input:focus{
 @media(max-width: 992px){
     .txt {
         margin-left: 0px;
+        margin-left: 0px;
     }
     .privacyButton {
         width: 85%;
@@ -1256,11 +1314,11 @@ input:focus{
         font-size: 22px;
     }
 }
-    .txt{
-        display: flex;
-        margin-left: 350px;
-    }
 @media(max-width: 768px){
+    .foot_ic {
+        width: 40px;
+        height: 40px;
+    }
     #div_form {
         position: static;
         width: 550px;
@@ -1279,7 +1337,7 @@ input:focus{
         width: 540px;
     }
     .firstBlock{
-        background: url(./pictures/firstBlock_bg.png) left bottom / 650px 800px no-repeat;
+        background: none;
         height: auto;
         background-size: 600px 90%;
         background-position: -100px -100px;
@@ -1289,7 +1347,6 @@ input:focus{
     }
     .firstBlock_text{
         margin: 0 auto;
-        margin-top: 700px;
         padding: 15px;
     }
     .firstBlock_text__info{
@@ -1400,6 +1457,7 @@ input:focus{
     .div_hromb_img {
         width: 120px;
         height: 120px;
+        margin-right: 20px;
     }   
     .gf{
         margin-left: 20px;
@@ -1410,6 +1468,8 @@ input:focus{
     #pagb {
         height: 90%;
         justify-content: center;
+        margin-top: 50px;
+        padding-bottom: 50px;
     }
     .div_hromb {
         margin-bottom: 55px;
@@ -1433,6 +1493,29 @@ input:focus{
     }  
 }
 @media(max-width: 576px){
+    div .foot_ic {
+        margin: 15px 15px 0px 15px;
+    }
+    #foot_info{
+        width: 100%;
+        height: 50%;
+    }
+    #foot_titl {
+        width: 100%;
+        height: 50%;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .foot_txt {
+        font-size: 20px;
+    }
+    #foot_red{
+        font-size: 30px;
+    }
+    .black_text {
+        font-size: 30px;
+    }
     .container {
         width: 100%;
     }
@@ -1645,6 +1728,12 @@ input:focus{
     }
 }
 @media(max-width: 375px){
+    .black_text {
+        font-size: 25px;
+    }
+    #foot_red {
+        font-size: 25px;
+    }
     .h1_block {
         font-size: 25px;
     }
