@@ -945,8 +945,12 @@ input:focus{
     }
 }
 @media(max-width: 1200px){
+    .div_hromb_img {
+        width: 180px;
+        height: 180px;
+    }
     .text_win {
-        font-size: 30px;
+        font-size: 28px;
     }
     .gf{
         margin-left: 20px;
