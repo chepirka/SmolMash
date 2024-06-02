@@ -945,9 +945,22 @@ input:focus{
     }
 }
 @media(max-width: 1200px){
+    .div_hromb:nth-child(2) {
+        justify-content: flex-start;
+    }
+    .div_hromb{
+        justify-content: center;
+    }
+    .div_win_text:nth-child(1) {
+        margin-right: 40px;
+    }
+    .img_win {
+        width: 190px;
+        height: 190px;
+    }
     .div_hromb_img {
-        width: 180px;
-        height: 180px;
+        width: 160px;
+        height: 160px;
     }
     .text_win {
         font-size: 28px;
@@ -1003,8 +1016,14 @@ input:focus{
     .two_block{
         height: 80%;
     }
+    .block_text {
+        font-size: 21px;
+    }
+    .block_h1 {
+        font-size: 25px;
+    }
     .h1_block{
-        font-size: 20px;
+        font-size: 25px;
     }
     .two_block_body{
         display: flex;
@@ -1030,16 +1049,29 @@ input:focus{
     } */
 }
 @media(max-width: 992px){
+    .privacyButton {
+        width: 85%;
+    }
+    .div_win_text {
+        margin-left: 30px;
+    }
+    .div_win_text:nth-child(1) {
+        margin-left: 0px;
+    }
+    .h1_block {
+        font-size: 20px;
+    }
     .text_win {
         font-size: 26px;
+        margin-top: 10px;
     }
     .div_hromb_img {
-        width: 160px;
-        height: 160px;
+        width: 150px;
+        height: 150px;
     }
     #div_form {
         position:static;
-        width: 500px;
+        width: 600px;
     }
     .forma{
         width: 450px;
@@ -1115,7 +1147,7 @@ input:focus{
         margin: 10px 10px 0px 0px;
     }
     .block_h1{
-        font-size: 19px;
+        font-size: 20px;
     }
     #ft{
         margin-left: 19px;
@@ -1133,7 +1165,7 @@ input:focus{
         width: 700px;
     }
     #sec4_plan_txt{
-        height: 68%;
+        height: 98%;
         margin-top: 10px;
         width: 600px;
     }
@@ -1216,6 +1248,10 @@ input:focus{
     margin-left: 350px;
 }
 @media(max-width: 768px){
+    #div_form {
+        position: static;
+        width: 550px;
+    }
     #cont1{      
         display: flex;
         align-content: center;
