@@ -946,7 +946,7 @@ input:focus{
 }
 @media(max-width: 1200px){
     .div_hromb:nth-child(2) {
-        justify-content: flex-start;
+        justify-content: center;
     }
     .div_hromb{
         justify-content: center;
