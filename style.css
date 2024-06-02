@@ -1365,7 +1365,7 @@ input:focus{
         margin-top: 10px !important;
     }   
     .block_text{
-        font-size: 24px;
+        font-size: 22px;
     }
     .two{
         display: flex;
@@ -1409,6 +1409,7 @@ input:focus{
     }
     #pagb {
         height: 90%;
+        justify-content: center;
     }
     .div_hromb {
         margin-bottom: 55px;
@@ -1461,7 +1462,7 @@ input:focus{
     }
     #sec2_line_p {
         width: 480px;
-        font-size: 23px;
+        font-size: 21px;
     }
     .sec2_line:nth-child(2) {
         top: 110px;
@@ -1489,8 +1490,9 @@ input:focus{
         font-size: 26px;
     }
     #pagb {
+        margin-top: 50px;
         justify-content: center;
-        padding-bottom: 0px;
+        padding-bottom: 50px;
     }
     .slide {
         width: 480px;
@@ -1640,5 +1642,32 @@ input:focus{
     }
     .dlkj{
         margin: 30px;
+    }
+}
+@media(max-width: 375px){
+    .h1_block {
+        font-size: 25px;
+    }
+    #sec4_plan {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .red_text {
+        font-size: 30px;
+    }
+    .white_text {
+        font-size: 30px;
+    }
+    .block_h1 {
+        font-size: 25px;
+    }
+    #logo_smolmash {
+        width: 130px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    #logo_rr {
+        width: 100px;
+        height: 45px;
     }
 }
