@@ -385,6 +385,10 @@ a{
     border-radius: 20px;
 
 }
+.dfgh{
+    display: flex;
+    align-items: center;
+}
 .sec2_line:nth-child(2){
     top: 140px;
 }
@@ -1124,12 +1128,12 @@ input:focus{
         width: 40px;
         height: 40px;
         overflow: visible;
-        padding-left: 100px;
     }
     #navigation{
         width: 0px;
         height: 0px;
         overflow: hidden;
+        position: absolute;
     }
     #hamburger-icon {
         display: block;
@@ -1198,6 +1202,9 @@ input:focus{
     #cont1{      
         display: flex;
         align-content: center;
+    }
+    .dfgh{
+        flex-direction: column-reverse;
     }
     .txt{
         margin-left: 0px;
@@ -1288,10 +1295,8 @@ input:focus{
     .block_img{
         width: 80px !important;
         height: 80px !important;
-    }
-    #sp{
-        margin: 10px 10px 0px 0px;
-    }
+        margin-top: 10px !important;
+    }   
     .block_text{
         font-size: 24px;
     }
@@ -1310,7 +1315,7 @@ input:focus{
     }
     #dks{
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
     }
     #sec4_plan_txt {
         height: 70%;
