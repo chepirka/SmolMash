@@ -1373,6 +1373,9 @@ input:focus{
     }
 }
 @media(max-width: 576px){
+    .container {
+        width: 480px;
+    }
     .firstBlock_text__info {
         width: 480px;
         font-size: 26px;
@@ -1391,9 +1394,70 @@ input:focus{
     .firstBlock_text__buttons {
         width: 480px;
     }
+    .firstBlock_text {
+        padding-left: 0px;
+    }
+    #sec2_line_p {
+        width: 480px;
+        font-size: 23px;
+    }
+    .sec2_line:nth-child(2) {
+        top: 110px;
+    }
+    #sec4_plan_txt {
+        width: 420px;
+    }
+    .div_win_text:nth-child(1) {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .gf {
+        margin-left: 30px;
+    }
+    .fg {
+        margin-right: 40px;
+    }
+    .div_hromb_img {
+        width: 100px;
+        height: 100px;
+    }
+    .img_win {
+        width: 110px;
+        height: 110px;
+    }
+    #plan_txt {
+        font-size: 26px;
+    }
+    #pagb {
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .slide {
+        width: 480px;
+    }
 }
 @media(max-width: 480px){
-
+    .container {
+        width: 450px;
+    }
+    #sec4_plan_txt {
+        width: 380px;
+    }
+    #plan_txt {
+        font-size: 24px;
+    }
+    .text_win {
+        font-size: 22px;
+        width: 250px;
+        margin-left: 20px;
+    }
+    .div_win_text {
+        margin-left: 0px;
+        width: 65%;
+    }
+    .div_hromb{
+        width: 90%;
+    }
 }
 @media(max-width: 440px){
 
