@@ -1383,7 +1383,10 @@ input:focus{
 }
 @media(max-width: 576px){
     .container {
-        width: 480px;
+        width: 100%;
+    }
+    .firstBlock {
+        background-position: 80% -100px;
     }
     .firstBlock_text__info {
         width: 480px;
@@ -1444,36 +1447,26 @@ input:focus{
     .slide {
         width: 480px;
     }
-}
-@media(max-width: 480px){
-    .container {
-        width: 450px;
+    #div_form {
+        width: 98%;
     }
-    #sec4_plan_txt {
-        width: 380px;
+    .forma{
+        width: 95%;
     }
-    #plan_txt {
-        font-size: 24px;
+    .forma input{
+        width: 100%;
     }
-    .text_win {
-        font-size: 22px;
-        width: 250px;
-        margin-left: 20px;
+    .forma label{
+        margin-left: 10px;
+        font-size: 20px;
     }
-    .div_win_text {
-        margin-left: 0px;
-        width: 65%;
+    .BUTT{
+        margin: 10px 0px 10px 0px;
     }
-    .div_hromb{
-        width: 90%;
+    .form_form{
+        height: auto;
     }
-}
-@media(max-width: 440px){
-
-}
-@media(max-width: 390px){
-
-}
-@media(max-width: 375px){
-
+    .form{
+        height: auto;
+    }
 }
