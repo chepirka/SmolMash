@@ -1140,6 +1140,7 @@ input:focus{
     #sec2_line_p{
         width: 600px;
         font-size: 26px;
+        line-height: 42px;
     }
     .block_img{
         width: 70px;
@@ -1478,7 +1479,7 @@ input:focus{
     }
     #pagb {
         justify-content: center;
-        padding-bottom: 50px;
+        padding-bottom: 0px;
     }
     .slide {
         width: 480px;
