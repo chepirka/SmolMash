@@ -39,6 +39,13 @@ a{
     display: flex;
     flex-direction: column;
 }
+.sdkf{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(230, 231, 232, 60%);
+    border-radius: 20PX;
+    height: 80%;
+}
 #logo_smolmash{
     width: 268px;
     height: 85px;
@@ -48,7 +55,7 @@ a{
     height: 70px;
 }
 .white_text{
-    color: #3A3A39;
+    color: black;
     font-size: 52px;
 }
 .red_text{
@@ -104,6 +111,7 @@ a{
     position: relative;
     overflow: hidden;
     background: url("./pictures/firstBlock_bg.png") left bottom / 600px 80% no-repeat;
+    background-position: -200px bottom;
 }
 .pic{
     position: absolute;
@@ -140,13 +148,13 @@ a{
     justify-content: center;
 }
 .firstBlock_text__date{
-    color: #3A3A39;
+    color: black;
     margin-top: 15px;
     font-size: 30px;
 }
 .firstBlock_text__info{
     margin-top: 20px;
-    color: #3A3A39;
+    color: black;
     font-size: 24px;
 }
 .firstBlock_text__buttons{
@@ -438,7 +446,7 @@ a{
     text-align: center;
 }
 .block_text{
-    color: #3A3A39;
+    color: black;
     text-align: center;
     margin-top: 20px;
     font-size: 24px;
@@ -460,7 +468,7 @@ a{
 }
 #events{
     width: 100%;
-    height: 1080px;
+    height: 780px;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -481,7 +489,7 @@ a{
     color: #D71921;
 }
 .circys{
-    width: 30px;
+    width: 25px;
     height: 30px;
     border: 6px solid #D71921;
     border-radius: 100%;
@@ -490,19 +498,22 @@ a{
 #sec4_plan{
     display: flex;
     flex-direction: column;
-    height: 75%;
+    height: 90%;
     margin:0px;
     width: 50px;
     align-items: start;
+    margin: auto;
+    margin-left: 10px;
 }
 #sec4_plan_txt{
     margin-right: 0px;
     width: 750px;
-    height: 75%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 0px;
+    padding-top: 10px;
 }
 .sec4_line{
     width: 5px;
@@ -515,10 +526,10 @@ a{
     position: relative;
 }
 #plan_txt{
-    height: 50px;
+    height: 100px;
     line-height: 45px;
     font-size: 32px;
-    color: #3A3A39!important;
+    color: black!important;
     margin: 0;
     margin-left: 30px;
 }
@@ -556,7 +567,7 @@ a{
 }
 #organisators{
     width: 100%;
-    height: 1080px;
+    height: 580px;
     background-color: white;
     position: relative;
     z-index: 1;
@@ -574,7 +585,7 @@ a{
     height: 170px;
 }
 .text_slide{
-    color:#3A3A39;
+    color: black;
     font-size: 48px;
     width: 100%;
     text-align: center;
@@ -664,6 +675,23 @@ input:focus{
     padding-bottom: 20px;
     padding-top: 20px;
     background-color:white;
+}
+.privacyButton{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.privacyButton_span{
+    font-family: "Roboto", sans-serif;
+}
+.privacyButton_link{
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color:rgb(37, 175, 175);
+}
+.privacyButton_link:hover{
+    text-decoration: underline;
 }
 #hamburger-icon {
     cursor: pointer;
@@ -812,7 +840,7 @@ input:focus{
         width: 1140px;
     }
     .white_text{
-        color: #3A3A39;
+        color: black;
         font-size: 40px;
     }
     .red_text{
@@ -889,7 +917,6 @@ input:focus{
         height: 69%;
     }
     #plan_txt{
-        line-height: 0px;
         font-size: 28px;
     }
     .fithBlock{
@@ -996,6 +1023,14 @@ input:focus{
     }
     #div_form {
         position:static;
+        width: 500px;
+    }
+    .forma{
+        width: 450px;
+    }
+    .forma input{
+        width: 450px;
+        margin: 0 auto;
     }
     .container{
         width: 760px;
@@ -1173,6 +1208,9 @@ input:focus{
         background-size: 600px 90%;
         background-position: -100px -100px;
     }
+    .form{
+        background-size: 0px, 0px !important;
+    }
     .firstBlock_text{
         margin-top: 700px;
         padding: 15px;
@@ -1272,9 +1310,9 @@ input:focus{
         flex-direction: row-reverse;
     }
     #sec4_plan_txt {
-        height: 68%;
+        height: 70%;
         margin-top: 0px;
-        width: 400px;
+        width: 450px;
     }
     #plan_txt {
         width: 400px;

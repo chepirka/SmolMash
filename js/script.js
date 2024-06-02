@@ -1,6 +1,6 @@
-    document.addEventListener('contextmenu', function(e) {
-        e.preventDefault();
-    });  
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});  
 jQuery(document).ready(function () {
      
     $(".phone").mask("+380 (99) 999-99-99"); 
