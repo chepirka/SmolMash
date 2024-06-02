@@ -787,6 +787,10 @@ input:focus{
     font-size: 24px;
     margin: 10px 0px 5px 20px;
 }
+.txt{
+    display: flex;
+    margin-left: 350px;
+}
 @media(max-width: 1440px){
     .h1_block{
         font-size: 26px;
@@ -1049,6 +1053,9 @@ input:focus{
     } */
 }
 @media(max-width: 992px){
+    .txt {
+        margin-left: 0px;
+    }
     .privacyButton {
         width: 85%;
     }
@@ -1102,6 +1109,7 @@ input:focus{
     }
     .firstBlock{
         height: 900px;
+        background: none;
     }
     .firstBlock_text{
         width: 100%;
@@ -1244,10 +1252,6 @@ input:focus{
         font-size: 22px;
     }
 }
-.txt{
-    display: flex;
-    margin-left: 350px;
-}
 @media(max-width: 768px){
     #div_form {
         position: static;
@@ -1267,6 +1271,7 @@ input:focus{
         width: 540px;
     }
     .firstBlock{
+        background: url(./pictures/firstBlock_bg.png) left bottom / 650px 800px no-repeat;
         height: auto;
         background-size: 600px 90%;
         background-position: -100px -100px;
