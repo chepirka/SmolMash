@@ -403,7 +403,7 @@ a{
     width: 100%;
     height: 980px;
     position: relative;
-    background: url("./pictures/events_bg.jpg")center center / cover no-repeat;
+    background: url("./pictures/IMG_0946.png")center center / cover no-repeat;
     overflow: hidden;
 }
 .thirdBlock_text{
@@ -791,6 +791,9 @@ input:focus{
     .h1_block{
         font-size: 26px;
     }
+    .two_block{
+        width: 28%;
+    }
     .block_h1{
         font-size: 26px;
     }
@@ -912,7 +915,6 @@ input:focus{
     }
     #sec4_plan_txt{
         justify-content: space-between;
-        height: 69%;
     }
     #plan_txt{
         font-size: 28px;
@@ -945,6 +947,9 @@ input:focus{
 @media(max-width: 1200px){
     .text_win {
         font-size: 30px;
+    }
+    .gf{
+        margin-left: 20px;
     }
     .container{
         width: 960px;
