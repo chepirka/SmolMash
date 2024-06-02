@@ -110,7 +110,7 @@ a{
     height: calc(100vh - 100px);
     position: relative;
     overflow: hidden;
-    background: url("./pictures/firstBlock_bg.png") left bottom / 600px 80% no-repeat;
+    background: url("./pictures/firstBlock_bg.png") left bottom / 650px 800px no-repeat;
     background-position: -200px bottom;
 }
 .pic{
@@ -723,11 +723,6 @@ input:focus{
     font-style: normal; 
     font-weight: normal; 
 }
-/* .bg{
-    width: 50vw;
-    background: url("./pictures/firstBlock_bg.png") center center / cover no-repeat;
-    margin-top: 25px;
-} */
 .h1_block{
     color: #D71921;
     font-size: 30px;
@@ -1195,10 +1190,17 @@ input:focus{
         font-size: 22px;
     }
 }
+.txt{
+    display: flex;
+    margin-left: 350px;
+}
 @media(max-width: 768px){
     #cont1{      
         display: flex;
         align-content: center;
+    }
+    .txt{
+        margin-left: 0px;
     }
     .container{
         width: 540px;
@@ -1212,6 +1214,7 @@ input:focus{
         background-size: 0px, 0px !important;
     }
     .firstBlock_text{
+        margin: 0 auto;
         margin-top: 700px;
         padding: 15px;
     }
@@ -1326,6 +1329,15 @@ input:focus{
         width: 120px;
         height: 120px;
     }   
+    .gf{
+        margin-left: 20px;
+    }
+    .fg{
+        margin-right: 20px;
+    }
+    .cf{
+        margin-bottom: 20px;
+    }
     #pagb {
         height: 90%;
     }
@@ -1333,8 +1345,11 @@ input:focus{
         margin-bottom: 55px;
         margin-top: 55px;
     }
+    .div_win_text{
+        margin-left: 40px;
+    }
     .div_win_text:nth-child(1) {
-        margin-right: 80px;
+        margin-right: 40px;
         margin-left: 0px;
     }
     #more_win{
