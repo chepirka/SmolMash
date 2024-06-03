@@ -639,6 +639,9 @@ div .foot_ic{
    width: 380px;
    height: 250px;
 }
+#img_euro{
+
+}
 #img_mash{
     width:500px;
     height: 170px;
@@ -654,29 +657,29 @@ div .foot_ic{
 }
 @keyframes scroll{
     0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-640px * 3))}
+	100% { transform: translateX(calc(-640px * 4))}
 }
 @-webkit-keyframes scroll{
     0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-640px * 3))}
+	100% { transform: translateX(calc(-640px * 4))}
 }
 @-moz-keyframes scroll{
     0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-640px * 3))}
+	100% { transform: translateX(calc(-640px * 4))}
 }
 @-o-keyframes scroll{
     0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-640px * 3))}
+	100% { transform: translateX(calc(-640px * 4))}
 }
 @-ms-keyframes scroll{
     0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-640px * 3))}
+	100% { transform: translateX(calc(-640px * 4))}
 }
 .slider {
 	height: 400px;
 	margin:0 auto;
 	position: relative;
-	width: 1920px;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -689,7 +692,7 @@ div .foot_ic{
     -ms-animation: scroll 40s linear infinite;
     animation: scroll 40s linear infinite;
     display: flex;
-    width: 1920px;
+    width: auto;
 }
 .slide {
     margin-left: 70px;
