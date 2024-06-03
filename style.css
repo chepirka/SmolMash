@@ -1668,8 +1668,8 @@ input:focus{
         font-weight: bold;
     }
     #plan_txt{
-        width: 100%;
-        font-size: 21.5px;
+        width: auto;
+        font-size: 21px;
         margin-left: 0px;
     }
     .dgn{
@@ -1749,6 +1749,9 @@ input:focus{
     .dlkj{
         margin: 30px;
     }
+    .div_win_text {
+        margin-left: 0px;
+    }
 }
 @media(max-width: 375px){
     .black_text {
@@ -1781,5 +1784,34 @@ input:focus{
     #logo_rr {
         width: 100px;
         height: 45px;
+    }
+    .div_win_text {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 320px){
+    .h1_block {
+        font-size: 23px;
+        letter-spacing: 3px;
+    }
+    .block_h1 {
+        font-size: 23px;
+        letter-spacing: 3px;
+    }
+    #sec4_plan_txt {
+        width: 80%;
+    }
+    #plan_txt{
+        line-height: 28px;
+    }
+    .BUTT {
+        width: 280px;
+    }
+    #div_form {
+        width: 95%;
+        margin-left: 5px;
+    }
+    .div_win_text {
+        margin-left: 0px;
     }
 }
