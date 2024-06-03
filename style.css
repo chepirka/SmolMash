@@ -764,6 +764,13 @@ input:focus{
     justify-content: center;
     margin-top: 20px;
 }
+.reglam{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 24px;
+}
 .privacyButton_span{
     font-family: "Roboto", sans-serif;
 }
@@ -1790,7 +1797,33 @@ input:focus{
         margin-left: 0px;
     }
 }
-@media (max-width: 320px){
+@media ((min-width: 320px) and (max-width:360px)){
+    .h1_block {
+        font-size: 23px;
+        letter-spacing: 3px;
+    }
+    .block_h1 {
+        font-size: 23px;
+        letter-spacing: 3px;
+    }
+    #sec4_plan_txt {
+        width: 80%;
+    }
+    #plan_txt{
+        line-height: 28px;
+    }
+    .BUTT {
+        width: 280px;
+    }
+    #div_form {
+        width: 95%;
+        margin-left: 5px;
+    }
+    .div_win_text {
+        margin-left: 0px;
+    }
+}
+@media (max-width:320px){
     .h1_block {
         font-size: 23px;
         letter-spacing: 3px;
