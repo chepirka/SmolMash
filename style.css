@@ -1814,7 +1814,7 @@ input:focus{
 @media ((min-width: 320px) and (max-width:360px)){
     .h1_block {
         font-size: 23px;
-        letter-spacing: 3px;
+        letter-spacing: 2px;
     }
     .block_h1 {
         font-size: 23px;
