@@ -30,6 +30,9 @@ p, h2, li, label{
 a{
     text-decoration: none;
 }
+.sdikfjfn{
+    font-size: 25px;
+}
 #navbar{
     width: 0px;
     height: 0px;
@@ -229,10 +232,6 @@ div .foot_ic{
 }
 .ji{
     font-size: 20px;
-}
-.button:hover{
-    background-color: rgb(58, 58, 57);
-    transition: 0.5s;
 }
 #discription{
     width: 100%;
@@ -563,6 +562,7 @@ div .foot_ic{
     align-items: start;
     margin: auto;
     margin-left: 10px;
+    margin-right: 0px;
 }
 #sec4_plan_txt{
     margin-right: 0px;
@@ -579,9 +579,7 @@ div .foot_ic{
     height: 235px;
     background-color:#D71921;
 }
-#sec4_flex{
-    display: flex;
-    flex-wrap: wrap;
+#sec4_flex{     
     position: relative;
 }
 #plan_txt{
@@ -762,17 +760,25 @@ input:focus{
     width: 100%;
     text-align: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .reglam{
     width: 100%;
     text-align: center;
     justify-content: center;
-    margin-top: 20px;
+    margin: 20px 0px 0px 10px;
     font-size: 24px;
+}
+.dfl a{
+    color: #25AFAF;
+    margin: 20px 0px 0px 0px;
 }
 .privacyButton_span{
     font-family: "Roboto", sans-serif;
+}
+.dfl{
+    font-family: "Roboto", sans-serif; 
+    margin-top: 20px;
 }
 .privacyButton_link{
     font-family: "Roboto", sans-serif;
@@ -1568,6 +1574,9 @@ input:focus{
         margin-left: 0px;
         margin-top: 10px;
     }
+    .firstBlock_text__buttons a div{
+        height: 55px;
+    }
     .firstBlock_text__buttons {
         width: 480px;
     }
@@ -1759,6 +1768,12 @@ input:focus{
     }
     .div_win_text {
         margin-left: 0px;
+    }
+    .h1_block{
+        font-size: 28px;
+    }
+    .block_h1{
+        font-size: 28px;
     }
 }
 @media(max-width: 375px){
