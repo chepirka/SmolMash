@@ -31,7 +31,8 @@ a{
     text-decoration: none;
 }
 .sdikfjfn{
-    font-size: 25px;
+    margin-top: 10px;
+    font-size: 28px;
 }
 #navbar{
     width: 0px;
@@ -1839,11 +1840,11 @@ input:focus{
 }
 @media (max-width:320px){
     .h1_block {
-        font-size: 23px;
+        font-size: 21px;
         letter-spacing: 3px;
     }
     .block_h1 {
-        font-size: 23px;
+        font-size: 21px;
         letter-spacing: 3px;
     }
     #sec4_plan_txt {
@@ -1861,4 +1862,5 @@ input:focus{
     .div_win_text {
         margin-left: 0px;
     }
+
 }
