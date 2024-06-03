@@ -652,7 +652,7 @@ div .foot_ic{
     font-family: "MarvinVisions-Bold";
     letter-spacing: 4px;
 }
-@keyframes scroll{
+@-webkit-keyframes scroll{
     0% { transform: translateX(0); }
 	100% { transform: translateX(calc(-640px * 3))}
 }
