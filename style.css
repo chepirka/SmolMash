@@ -1770,6 +1770,7 @@ input:focus{
     }
     .h1_block{
         font-size: 28px;
+        letter-spacing: 2px;
     }
     .block_h1{
         font-size: 28px;
@@ -1784,6 +1785,7 @@ input:focus{
     }
     .h1_block {
         font-size: 25px;
+        letter-spacing: 2px;
     }
     #sec4_plan {
         margin-left: 5px;
