@@ -18,13 +18,13 @@
     $mail->isSMTP();                   // Отправка через SMTP
     $mail->Host = 'smtp.yandex.ru';  // Адрес SMTP сервера
     $mail->SMTPAuth = true;   
-    $mail->Username = 'dgfpupkin';       // ваше имя пользователя (без домена и @)
-    $mail->Password = 'tuvzxyeqthqdsxzu';    // ваш пароль
+    $mail->Username = 'K-ANDre-A';       // ваше имя пользователя (без домена и @)
+    $mail->Password = 'meingzfbsgcjwfmv';    // ваш пароль
     $mail->SMTPSecure = 'SSL';         // шифрование ssl
     $mail->Port = 587;               // порт подключения
      
-    $mail->setFrom('dgfpupkin@yandex.ru', 'Конкурс Смолмаш');    // от кого
-    $mail->addAddress('dgfpupkin@yandex.ru', 'Участник записался'); // кому
+    $mail->setFrom('K-ANDre-A@yandex.ru', 'Конкурс Смолмаш');    // от кого
+    $mail->addAddress('K-ANDre-A@yandex.ru', 'Участник записался'); // кому
      
     $mail->Subject = 'Участник записался';
     $mail->msgHTML("<html><body>
