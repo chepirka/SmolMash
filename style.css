@@ -657,23 +657,23 @@ div .foot_ic{
 }
 @keyframes scroll{
     0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-640px * 4))}
+	100% { transform: translateX(calc(-640px * 5))}
 }
 @-webkit-keyframes scroll{
     0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-640px * 4))}
+	100% { transform: translateX(calc(-640px * 5))}
 }
 @-moz-keyframes scroll{
     0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-640px * 4))}
+	100% { transform: translateX(calc(-640px * 5))}
 }
 @-o-keyframes scroll{
     0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-640px * 4))}
+	100% { transform: translateX(calc(-640px * 5))}
 }
 @-ms-keyframes scroll{
     0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-640px * 4))}
+	100% { transform: translateX(calc(-640px * 5))}
 }
 .slider {
 	height: 400px;
